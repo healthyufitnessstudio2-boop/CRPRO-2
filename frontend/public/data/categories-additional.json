@@ -4,29 +4,42 @@
       "id": "ss-steel-glass",
       "name": "SS Steel & Glass Railing",
       "description": "High-quality stainless steel and glass railing systems. Toughened safety glass, corrosion-resistant.",
-      "image": "https://images.unsplash.com/photo-1635266147530-f30f831dc9e0?w=800",
+      "image": "https://crprorailing.vercel.app/images/kavi/products-pg-9.jpg",
       "products": [
-        {"id": "SS-RAILING-2", "name": "SS Railing System Pro", "image": "https://images.unsplash.com/photo-1635266147530-f30f831dc9e0?w=400", "description": "Profile: 38mm / 50mm pipes | Premium SS 304/316"},
-        {"id": "GLASS-POINT-2", "name": "Glass Point Fitting", "image": "https://images.unsplash.com/photo-1766156181041-0dc63ec093ff?w=400", "description": "Various sizes | High-strength steel"},
-        {"id": "GLASS-SPIGOT-2", "name": "Glass Spigots", "image": "https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4?w=400", "description": "Profile: 50mm / 60mm / 80mm | SS 304/316"}
+        {"id": "RW-ST01", "name": "RW-ST01 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST01-3d.jpg", "description": "Profile: 40 mm X 200 mm | Heavy Duty Steel"},
+        {"id": "RW-ST02", "name": "RW-ST02 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST02-3d.jpg", "description": "Profile: Custom | Tailor-Made Design"},
+        {"id": "RW-ST03", "name": "RW-ST03 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST03-3d.jpg", "description": "Profile: Custom | Modern Aesthetic"},
+        {"id": "RW-ST04", "name": "RW-ST04 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST04-3d.jpg", "description": "Profile: Custom | Elegant Finish"},
+        {"id": "RW-ST05", "name": "RW-ST05 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST05-3d.jpg", "description": "Profile: Custom | Contemporary Design"},
+        {"id": "RW-ST06", "name": "RW-ST06 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST06-3d.jpg", "description": "Profile: Custom | High Quality Steel"},
+        {"id": "RW-ST07", "name": "RW-ST07 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST07-3d.jpg", "description": "Profile: Custom | Precision Engineering"},
+        {"id": "RW-ST08", "name": "RW-ST08 Steel Railing", "image": "https://crprorailing.vercel.app/images/main-products/ST08-3d.jpg", "description": "Profile: Custom | Professional Grade"},
+        {"id": "SS-RAILING", "name": "SS Railing System", "image": "https://crprorailing.vercel.app/images/kavi/products-pg-9.jpg", "description": "Profile: 38mm / 50mm pipes | Premium SS 304/316"},
+        {"id": "SS-ACCESSORIES", "name": "SS Railing Accessories", "image": "https://crprorailing.vercel.app/images/kavi/products-pg-8.jpg", "description": "Profile: 12mm / 16mm rods | Complete Kit"},
+        {"id": "GLASS-POINT", "name": "Glass Point Fitting", "image": "https://crprorailing.vercel.app/images/kavi/products-pg-1.jpg", "description": "Various sizes | High-strength steel"},
+        {"id": "GLASS-SPIGOT", "name": "Glass Spigots", "image": "https://crprorailing.vercel.app/images/kavi/glass-spigpt-product.png", "description": "Profile: 50mm / 60mm / 80mm | SS 304/316"},
+        {"id": "GLASS-BRACKET", "name": "Glass Handrail Brackets", "image": "https://crprorailing.vercel.app/images/kavi/glass_bracket2.png", "description": "Profile: 38mm / 42mm / 50mm | Universal fit"},
+        {"id": "GLASS-BRACKETS-SET", "name": "Glass Brackets Set", "image": "https://crprorailing.vercel.app/images/kavi/products-pg-5.jpg", "description": "Various profiles | Complete set"},
+        {"id": "MINI-BALUSTRADE", "name": "Mini Glass Balustrade", "image": "https://crprorailing.vercel.app/images/kavi/products-pg-6.jpg", "description": "Channel: 40×40mm | Compact design"},
+        {"id": "GLASS-SYSTEM", "name": "Glass Railing System", "image": "https://crprorailing.vercel.app/images/kavi/products-pg-7.jpg", "description": "Post: 50×50mm | Complete system"}
       ]
     },
     {
       "id": "ss-pvd-coating",
       "name": "SS Steel PVD Powder Coating",
       "description": "Advanced PVD powder coating. Gold, Rose Gold, Black finishes. Enhanced durability.",
-      "image": "https://images.unsplash.com/photo-1506465243340-79d6321deb0e?w=800",
+      "image": "https://crprorailing.vercel.app/images/kavi/pvd-coated-center-table2.png",
       "products": [
-        {"id": "SS-TABLES-2", "name": "SS Center Tables (PVD)", "image": "https://images.unsplash.com/photo-1506465243340-79d6321deb0e?w=400", "description": "Custom sizes | Gold/Rose Gold/Black PVD Coating"}
+        {"id": "SS-TABLES", "name": "SS Center Tables (PVD)", "image": "https://crprorailing.vercel.app/images/kavi/pvd-coated-center-table2.png", "description": "Custom sizes | Gold/Rose Gold/Black PVD Coating"}
       ]
     },
     {
       "id": "upvc-window-door",
       "name": "UPVC Window Door Glass Partition",
       "description": "UPVC windows, doors, and glass partitions. Energy efficient, soundproof.",
-      "image": "https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg?w=800",
+      "image": "https://crprorailing.vercel.app/images/kavi/partition-pro.jpg",
       "products": [
-        {"id": "GLASS-PARTITION-2", "name": "Glass Partitions", "image": "https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg?w=400", "description": "Thickness: 8–12mm | Office/home partitions"}
+        {"id": "GLASS-PARTITION", "name": "Glass Partitions", "image": "https://crprorailing.vercel.app/images/kavi/partition-pro.jpg", "description": "Thickness: 8–12mm | Office/home partitions"}
       ]
     }
   ]
