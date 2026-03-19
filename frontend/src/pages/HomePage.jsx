@@ -77,7 +77,7 @@ const HomePage = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-transparent" />
             
-            <div className="relative h-full container mx-auto px-4 flex items-center">
+            <div className="relative h-full container mx-auto px-4 flex items-end pb-20">
               <div className="max-w-2xl text-white animate-fade-in-up">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                   {slide.title}
@@ -88,21 +88,21 @@ const HomePage = () => {
                 <div className="flex flex-wrap gap-2 md:gap-4">
                   <Link 
                     to="/products"
-                    className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-4 py-2 md:px-8 md:py-3 rounded-lg text-sm md:text-base font-semibold flex items-center space-x-1 md:space-x-2 transition-all transform hover:scale-105"
+                    className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-3 py-1.5 text-xs md:px-8 md:py-3 md:text-base rounded-lg font-semibold flex items-center space-x-1 md:space-x-2 transition-all transform hover:scale-105"
                   >
                     <span>Explore Products</span>
                     <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
                   </Link>
                   <Link 
                     to="/contact"
-                    className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/30 px-4 py-2 md:px-8 md:py-3 rounded-lg text-sm md:text-base font-semibold transition-all"
+                    className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/30 px-3 py-1.5 text-xs md:px-8 md:py-3 md:text-base rounded-lg font-semibold transition-all"
                   >
                     Get Quote
                   </Link>
                   <a 
                     href="/catalog/CR-PRO-RAILING-Catalog.pdf"
                     download
-                    className="bg-slate-800/50 backdrop-blur-sm hover:bg-slate-700/50 text-white border-2 border-amber-400/50 px-4 py-2 md:px-8 md:py-3 rounded-lg text-sm md:text-base font-semibold transition-all flex items-center space-x-1 md:space-x-2"
+                    className="bg-slate-800/50 backdrop-blur-sm hover:bg-slate-700/50 text-white border-2 border-amber-400/50 px-3 py-1.5 text-xs md:px-8 md:py-3 md:text-base rounded-lg font-semibold transition-all flex items-center space-x-1 md:space-x-2"
                   >
                     <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
