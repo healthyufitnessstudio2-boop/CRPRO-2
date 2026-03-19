@@ -2,121 +2,121 @@
   "images": [
     {
       "id": 1,
-      "url": "/images/gallery/gallery-1.jpg",
+      "image": "/images/gallery/gallery-1.jpg",
       "title": "Modern Glass Balcony",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 2,
-      "url": "/images/gallery/gallery-2.jpg",
+      "image": "/images/gallery/gallery-2.jpg",
       "title": "Luxury Staircase Design",
       "category": "SS Steel Glass"
     },
     {
       "id": 3,
-      "url": "/images/gallery/gallery-3.jpg",
+      "image": "/images/gallery/gallery-3.jpg",
       "title": "Contemporary Balustrade",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 4,
-      "url": "/images/gallery/gallery-4.jpg",
+      "image": "/images/gallery/gallery-4.jpg",
       "title": "Premium Office Partition",
       "category": "UPVC Glass Partition"
     },
     {
       "id": 5,
-      "url": "/images/gallery/gallery-5.jpg",
+      "image": "/images/gallery/gallery-5.jpg",
       "title": "Elegant Terrace Railing",
       "category": "SS Steel Glass"
     },
     {
       "id": 6,
-      "url": "/images/gallery/gallery-6.jpg",
+      "image": "/images/gallery/gallery-6.jpg",
       "title": "Gold PVD Finish",
       "category": "PVD Coating"
     },
     {
       "id": 7,
-      "url": "/images/gallery/gallery-7.jpg",
+      "image": "/images/gallery/gallery-7.jpg",
       "title": "Frameless Glass System",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 8,
-      "url": "/images/gallery/gallery-8.jpg",
+      "image": "/images/gallery/gallery-8.jpg",
       "title": "Modern Balcony Rail",
       "category": "T Birket Profile"
     },
     {
       "id": 9,
-      "url": "/images/gallery/gallery-9.jpg",
+      "image": "/images/gallery/gallery-9.jpg",
       "title": "Residential Project",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 10,
-      "url": "/images/gallery/gallery-10.jpg",
+      "image": "/images/gallery/gallery-10.jpg",
       "title": "Commercial Installation",
       "category": "SS Steel Glass"
     },
     {
       "id": 11,
-      "url": "/images/gallery/gallery-11.jpg",
+      "image": "/images/gallery/gallery-11.jpg",
       "title": "Curved Glass Design",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 12,
-      "url": "/images/gallery/gallery-12.jpg",
+      "image": "/images/gallery/gallery-12.jpg",
       "title": "Premium Finish",
       "category": "PVD Coating"
     },
     {
       "id": 13,
-      "url": "/images/gallery/gallery-13.jpg",
+      "image": "/images/gallery/gallery-13.jpg",
       "title": "High-Rise Building",
       "category": "SS Steel Glass"
     },
     {
       "id": 14,
-      "url": "/images/gallery/gallery-14.jpg",
+      "image": "/images/gallery/gallery-14.jpg",
       "title": "Custom UPVC Solution",
       "category": "UPVC Glass Partition"
     },
     {
       "id": 15,
-      "url": "/images/gallery/gallery-15.jpg",
+      "image": "/images/gallery/gallery-15.jpg",
       "title": "Architectural Excellence",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 16,
-      "url": "/images/gallery/gallery-16.jpg",
+      "image": "/images/gallery/gallery-16.jpg",
       "title": "Modern Villa",
       "category": "T Birket Profile"
     },
     {
       "id": 17,
-      "url": "/images/gallery/gallery-17.jpg",
+      "image": "/images/gallery/gallery-17.jpg",
       "title": "Pool Side Railing",
       "category": "SS Steel Glass"
     },
     {
       "id": 18,
-      "url": "/images/gallery/gallery-18.jpg",
+      "image": "/images/gallery/gallery-18.jpg",
       "title": "Luxury Apartment",
       "category": "Aluminum Glass Railing"
     },
     {
       "id": 19,
-      "url": "/images/gallery/gallery-19.jpg",
+      "image": "/images/gallery/gallery-19.jpg",
       "title": "Minimalist Design",
       "category": "SS Steel Glass"
     },
     {
       "id": 20,
-      "url": "/images/gallery/gallery-20.jpg",
+      "image": "/images/gallery/gallery-20.jpg",
       "title": "Contemporary Style",
       "category": "Aluminum Glass Railing"
     }
