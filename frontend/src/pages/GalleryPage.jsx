@@ -65,7 +65,7 @@ const GalleryPage = () => {
           </button>
           <div className="max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
             <img
-              src={selectedImage.image}
+              src={selectedImage.url}
               alt={selectedImage.title}
               className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
             />
