@@ -30,11 +30,11 @@ const GalleryPage = () => {
       {/* Gallery Grid */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+          <div className="columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
            {galleryImages.map((image, idx) => (
   <div
-    key={image.id}
-    className="group cursor-pointer w-full"
+  key={image.id}
+  className="group cursor-pointer w-full break-inside-avoid"
     onClick={() => setSelectedImage(image)}
   >
     <div className="relative overflow-hidden rounded-xl shadow-lg hover-lift">
