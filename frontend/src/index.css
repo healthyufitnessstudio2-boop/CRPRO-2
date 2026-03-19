@@ -113,3 +113,8 @@ code {
         border-bottom-color: inherit;
     }
 }
+@layer utilities {
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
+}
