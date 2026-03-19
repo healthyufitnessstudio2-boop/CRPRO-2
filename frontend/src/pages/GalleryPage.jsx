@@ -30,7 +30,31 @@ const GalleryPage = () => {
       {/* Gallery Grid */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 auto-rows-[10px]">
+         <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+  {galleryImages.map((image) => (
+    <div
+      key={image.id}
+      className="break-inside-avoid mb-4 group cursor-pointer"
+      onClick={() => setSelectedImage(image)}
+    >
+      <div className="relative overflow-hidden rounded-xl shadow-lg hover-lift">
+        <img
+          src={image.image}
+          alt={image.title}
+          className="w-full h-auto group-hover:scale-110 transition-transform duration-500"
+        />
+
+        {/* Optional overlay like Emergent */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition">
+          <div className="absolute bottom-0 p-4 text-white">
+            <h3 className="font-semibold">{image.title}</h3>
+            <p className="text-sm">{image.category}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
            {galleryImages.map((image, idx) => (
  <div
   key={image.id}
