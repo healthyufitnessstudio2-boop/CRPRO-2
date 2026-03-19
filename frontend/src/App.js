@@ -23,7 +23,7 @@ function App() {
       <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="text-center">
           <img 
-            src="https://customer-assets.emergentagent.com/job_81edeaf8-217a-4db9-99ef-2f4d72cfd1fa/artifacts/0fgexlav_ChatGPT%20Image%20Mar%2019%2C%202026%2C%2005_13_39%20PM.png" 
+            src="/logo.png" 
             alt="CR PRO RAILING" 
             className="w-32 h-32 mx-auto mb-4 animate-pulse"
           />

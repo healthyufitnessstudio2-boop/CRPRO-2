@@ -1,9 +1,9 @@
 {
   "categories": [
     {
-      "id": "aluminum-railing-profiles",
-      "name": "Aluminum Railing Profiles",
-      "description": "Premium aluminum railing profiles with 3D view, 2D diagrams. Weather-proof, UV resistant, maintenance-free.",
+      "id": "aluminium-glass-balcony",
+      "name": "Aluminium Glass Balcony Railing",
+      "description": "Premium aluminium glass balcony railings with 3D view, 2D diagrams. Weather-proof, UV resistant, maintenance-free.",
       "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW01-3d.jpg",
       "products": [
         {"id": "RW-01", "name": "RW-01 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW01-3d.jpg", "description": "Profile: 55 mm X 70 mm | 100% Recyclable, Weather Proof, UV Resistant"},
@@ -32,9 +32,9 @@
       ]
     },
     {
-      "id": "steel-ss-railing",
-      "name": "Steel / SS Railing Profiles",
-      "description": "High-quality stainless steel railing systems with custom profiles. Durable, corrosion-resistant, and modern designs.",
+      "id": "aluminium-t-birket",
+      "name": "Aluminium T Birket Profile",
+      "description": "Innovative T Birket profile aluminum railing systems. Durable, corrosion-resistant, and modern designs.",
       "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST01-3d.jpg",
       "products": [
         {"id": "RW-ST01", "name": "RW-ST01 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST01-3d.jpg", "description": "Profile: 40 mm X 200 mm | Heavy Duty Steel, High Load Capacity"},
