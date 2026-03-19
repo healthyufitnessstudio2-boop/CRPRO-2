@@ -1,0 +1,111 @@
+import React, { useState, useEffect } from 'react';
+import { X } from 'lucide-react';
+
+const GalleryPage = () => {
+  const [galleryImages, setGalleryImages] = useState([]);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  useEffect(() => {
+    fetch('/data/gallery.json')
+      .then(res => res.json())
+      .then(data => setGalleryImages(data.images))
+      .catch(err => console.error('Error loading gallery:', err));
+  }, []);
+
+  // Demo images (will be replaced by user)
+  const demoImages = [
+    'https://images.unsplash.com/photo-1766156181041-0dc63ec093ff',
+    'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4',
+    'https://images.unsplash.com/photo-1506465243340-79d6321deb0e',
+    'https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg',
+    'https://images.pexels.com/photos/34840277/pexels-photo-34840277.jpeg',
+    'https://images.unsplash.com/photo-1592427761244-5aeb02877a',
+    'https://images.unsplash.com/photo-1635266147530-f30f831dc9e0',
+    'https://images.unsplash.com/photo-1766156181041-0dc63ec093ff',
+    'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4',
+    'https://images.unsplash.com/photo-1506465243340-79d6321deb0e',
+    'https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg',
+    'https://images.pexels.com/photos/34840277/pexels-photo-34840277.jpeg',
+    'https://images.unsplash.com/photo-1592427761244-5aeb02877a',
+    'https://images.unsplash.com/photo-1635266147530-f30f831dc9e0',
+    'https://images.unsplash.com/photo-1766156181041-0dc63ec093ff',
+    'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4',
+    'https://images.unsplash.com/photo-1506465243340-79d6321deb0e',
+    'https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg',
+    'https://images.pexels.com/photos/34840277/pexels-photo-34840277.jpeg',
+    'https://images.unsplash.com/photo-1592427761244-5aeb02877a'
+  ];
+
+  return (
+    <div className="min-h-screen bg-slate-50">
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up">
+            Project <span className="gradient-text">Gallery</span>
+          </h1>
+          <p className="text-slate-300 text-lg max-w-2xl mx-auto">
+            Explore our portfolio of completed projects and installations
+          </p>
+        </div>
+      </section>
+
+      {/* Gallery Grid */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+            {galleryImages.map((image, idx) => (
+              <div
+                key={image.id}
+                className="break-inside-avoid mb-4 group cursor-pointer"
+                onClick={() => setSelectedImage({ ...image, demoUrl: demoImages[idx % demoImages.length] })}
+              >
+                <div className="relative overflow-hidden rounded-xl shadow-lg hover-lift">
+                  <img
+                    src={demoImages[idx % demoImages.length]}
+                    alt={image.title}
+                    className="w-full h-auto group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                      <h3 className="font-semibold text-lg mb-1">{image.title}</h3>
+                      <p className="text-sm text-slate-300">{image.category}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Lightbox */}
+      {selectedImage && (
+        <div 
+          className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4 animate-fade-in-up"
+          onClick={() => setSelectedImage(null)}
+        >
+          <button
+            onClick={() => setSelectedImage(null)}
+            className="absolute top-4 right-4 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors"
+          >
+            <X className="w-6 h-6 text-white" />
+          </button>
+          <div className="max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={selectedImage.demoUrl}
+              alt={selectedImage.title}
+              className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+            />
+            <div className="mt-4 text-center text-white">
+              <h3 className="text-2xl font-bold mb-2">{selectedImage.title}</h3>
+              <p className="text-slate-300">{selectedImage.category}</p>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default GalleryPage;

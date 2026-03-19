@@ -1,0 +1,64 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "image": "/images/slider/slide-1.jpg",
+      "title": "Premium Glass & Aluminum Railing Solutions",
+      "description": "Transform your space with our modern railing systems"
+    },
+    {
+      "id": 2,
+      "image": "/images/slider/slide-2.jpg",
+      "title": "Strength • Style • Perfection",
+      "description": "Crafted with precision for lasting beauty"
+    },
+    {
+      "id": 3,
+      "image": "/images/slider/slide-3.jpg",
+      "title": "Elevate Your Architecture",
+      "description": "Contemporary designs for modern living"
+    },
+    {
+      "id": 4,
+      "image": "/images/slider/slide-4.jpg",
+      "title": "Uncompromising Quality",
+      "description": "ISO certified products with lifetime warranty"
+    },
+    {
+      "id": 5,
+      "image": "/images/slider/slide-5.jpg",
+      "title": "Safety Meets Elegance",
+      "description": "Engineered for maximum safety without compromising style"
+    },
+    {
+      "id": 6,
+      "image": "/images/slider/slide-6.jpg",
+      "title": "Custom Solutions for Every Space",
+      "description": "Tailored designs to match your vision"
+    },
+    {
+      "id": 7,
+      "image": "/images/slider/slide-7.jpg",
+      "title": "Innovation in Every Detail",
+      "description": "Advanced technology meets timeless design"
+    },
+    {
+      "id": 8,
+      "image": "/images/slider/slide-8.jpg",
+      "title": "Trusted by Architects & Builders",
+      "description": "Preferred choice for premium projects across India"
+    },
+    {
+      "id": 9,
+      "image": "/images/slider/slide-9.jpg",
+      "title": "Seamless Installation",
+      "description": "Expert installation with minimal disruption"
+    },
+    {
+      "id": 10,
+      "image": "/images/slider/slide-10.jpg",
+      "title": "Your Dream, Our Expertise",
+      "description": "Experience excellence with CR PRO RAILING"
+    }
+  ]
+}
