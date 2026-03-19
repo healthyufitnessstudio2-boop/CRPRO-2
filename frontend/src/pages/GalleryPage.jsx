@@ -39,7 +39,7 @@ const GalleryPage = () => {
   >
     <div className="relative overflow-hidden rounded-xl shadow-lg hover-lift">
       <img
-        src={image.url}
+        src={image.image}
         alt={image.title}
         className="w-full h-auto group-hover:scale-110 transition-transform duration-500"
       />
@@ -65,7 +65,7 @@ const GalleryPage = () => {
           </button>
           <div className="max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
             <img
-              src={selectedImage.url}
+              src={selectedImage.image}
               alt={selectedImage.title}
               className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
             />
