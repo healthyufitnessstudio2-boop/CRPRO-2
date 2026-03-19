@@ -71,8 +71,8 @@ const HomePage = () => {
             <div 
               className="absolute inset-0 bg-cover bg-center"
               style={{ 
-                backgroundImage: `url(${demoImages[index]})`,
-                filter: 'brightness(0.5)'
+                backgroundImage: `url(${slide.image})`,
+                filter: 'brightness(0.7)'
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-transparent" />
