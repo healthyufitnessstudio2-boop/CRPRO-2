@@ -85,29 +85,30 @@ const HomePage = () => {
                 <p className="text-lg md:text-xl mb-8 text-slate-200">
                   {slide.description}
                 </p>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-2 md:gap-4">
                   <Link 
                     to="/products"
-                    className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-6 md:px-8 py-3 rounded-lg font-semibold flex items-center space-x-2 transition-all transform hover:scale-105"
+                    className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-4 py-2 md:px-8 md:py-3 rounded-lg text-sm md:text-base font-semibold flex items-center space-x-1 md:space-x-2 transition-all transform hover:scale-105"
                   >
                     <span>Explore Products</span>
-                    <ArrowRight className="w-5 h-5" />
+                    <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
                   </Link>
                   <Link 
                     to="/contact"
-                    className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/30 px-6 md:px-8 py-3 rounded-lg font-semibold transition-all"
+                    className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/30 px-4 py-2 md:px-8 md:py-3 rounded-lg text-sm md:text-base font-semibold transition-all"
                   >
                     Get Quote
                   </Link>
                   <a 
                     href="/catalog/CR-PRO-RAILING-Catalog.pdf"
                     download
-                    className="bg-slate-800/50 backdrop-blur-sm hover:bg-slate-700/50 text-white border-2 border-amber-400/50 px-6 md:px-8 py-3 rounded-lg font-semibold transition-all flex items-center space-x-2"
+                    className="bg-slate-800/50 backdrop-blur-sm hover:bg-slate-700/50 text-white border-2 border-amber-400/50 px-4 py-2 md:px-8 md:py-3 rounded-lg text-sm md:text-base font-semibold transition-all flex items-center space-x-1 md:space-x-2"
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-                    <span>Download Catalog</span>
+                    <span className="hidden sm:inline">Download Catalog</span>
+                    <span className="sm:hidden">Catalog</span>
                   </a>
                 </div>
               </div>
@@ -117,7 +118,8 @@ const HomePage = () => {
                 <img 
                   src="/logo.png"
                   alt="CR PRO RAILING" 
-                  className="w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 object-contain drop-shadow-2xl opacity-90"
+                  className="w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 object-contain drop-shadow-2xl"
+                  style={{filter: 'drop-shadow(0 0 20px rgba(0,0,0,0.5))'}}
                 />
               </div>
             </div>
@@ -155,7 +157,7 @@ const HomePage = () => {
       {/* Features Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
               { icon: Shield, title: 'Safety First', desc: 'ISI certified products with maximum safety standards' },
               { icon: Award, title: 'Premium Quality', desc: 'Top-grade materials with lifetime warranty' },

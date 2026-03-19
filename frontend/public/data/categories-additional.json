@@ -4,29 +4,29 @@
       "id": "ss-steel-glass",
       "name": "SS Steel & Glass Railing",
       "description": "High-quality stainless steel and glass railing systems. Toughened safety glass, corrosion-resistant.",
-      "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/products-pg-9.jpg",
+      "image": "https://images.unsplash.com/photo-1635266147530-f30f831dc9e0?w=800",
       "products": [
-        {"id": "SS-RAILING", "name": "SS Railing System", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/products-pg-9.jpg", "description": "Profile: 38mm / 50mm pipes | Premium SS 304/316"},
-        {"id": "GLASS-POINT", "name": "Glass Point Fitting", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/products-pg-1.jpg", "description": "Various sizes | High-strength steel"},
-        {"id": "GLASS-SPIGOT", "name": "Glass Spigots", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/glass-spigpt-product.png", "description": "Profile: 50mm / 60mm / 80mm | SS 304/316"}
+        {"id": "SS-RAILING-2", "name": "SS Railing System Pro", "image": "https://images.unsplash.com/photo-1635266147530-f30f831dc9e0?w=400", "description": "Profile: 38mm / 50mm pipes | Premium SS 304/316"},
+        {"id": "GLASS-POINT-2", "name": "Glass Point Fitting", "image": "https://images.unsplash.com/photo-1766156181041-0dc63ec093ff?w=400", "description": "Various sizes | High-strength steel"},
+        {"id": "GLASS-SPIGOT-2", "name": "Glass Spigots", "image": "https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4?w=400", "description": "Profile: 50mm / 60mm / 80mm | SS 304/316"}
       ]
     },
     {
       "id": "ss-pvd-coating",
       "name": "SS Steel PVD Powder Coating",
       "description": "Advanced PVD powder coating. Gold, Rose Gold, Black finishes. Enhanced durability.",
-      "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/pvd-coated-center-table2.png",
+      "image": "https://images.unsplash.com/photo-1506465243340-79d6321deb0e?w=800",
       "products": [
-        {"id": "SS-TABLES", "name": "SS Center Tables (PVD)", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/pvd-coated-center-table2.png", "description": "Custom sizes | Gold/Rose Gold/Black PVD Coating"}
+        {"id": "SS-TABLES-2", "name": "SS Center Tables (PVD)", "image": "https://images.unsplash.com/photo-1506465243340-79d6321deb0e?w=400", "description": "Custom sizes | Gold/Rose Gold/Black PVD Coating"}
       ]
     },
     {
       "id": "upvc-window-door",
       "name": "UPVC Window Door Glass Partition",
       "description": "UPVC windows, doors, and glass partitions. Energy efficient, soundproof.",
-      "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/partition-pro.jpg",
+      "image": "https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg?w=800",
       "products": [
-        {"id": "GLASS-PARTITION", "name": "Glass Partitions", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/partition-pro.jpg", "description": "Thickness: 8–12mm | Office/home partitions"}
+        {"id": "GLASS-PARTITION-2", "name": "Glass Partitions", "image": "https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg?w=400", "description": "Thickness: 8–12mm | Office/home partitions"}
       ]
     }
   ]
