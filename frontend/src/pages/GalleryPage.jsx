@@ -13,30 +13,7 @@ const GalleryPage = () => {
   }, []);
 
   // Demo images (will be replaced by user)
-  const demoImages = [
-    'https://images.unsplash.com/photo-1766156181041-0dc63ec093ff',
-    'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4',
-    'https://images.unsplash.com/photo-1506465243340-79d6321deb0e',
-    'https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg',
-    'https://images.pexels.com/photos/34840277/pexels-photo-34840277.jpeg',
-    'https://images.unsplash.com/photo-1592427761244-5aeb02877a',
-    'https://images.unsplash.com/photo-1635266147530-f30f831dc9e0',
-    'https://images.unsplash.com/photo-1766156181041-0dc63ec093ff',
-    'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4',
-    'https://images.unsplash.com/photo-1506465243340-79d6321deb0e',
-    'https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg',
-    'https://images.pexels.com/photos/34840277/pexels-photo-34840277.jpeg',
-    'https://images.unsplash.com/photo-1592427761244-5aeb02877a',
-    'https://images.unsplash.com/photo-1635266147530-f30f831dc9e0',
-    'https://images.unsplash.com/photo-1766156181041-0dc63ec093ff',
-    'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4',
-    'https://images.unsplash.com/photo-1506465243340-79d6321deb0e',
-    'https://images.pexels.com/photos/18435276/pexels-photo-18435276.jpeg',
-    'https://images.pexels.com/photos/34840277/pexels-photo-34840277.jpeg',
-    'https://images.unsplash.com/photo-1592427761244-5aeb02877a'
-  ];
-
-  return (
+   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20">
@@ -58,11 +35,11 @@ const GalleryPage = () => {
               <div
                 key={image.id}
                 className="break-inside-avoid mb-4 group cursor-pointer"
-                onClick={() => setSelectedImage({ ...image, demoUrl: demoImages[idx % demoImages.length] })}
+                onClick={() => setSelectedImage(image)}
               >
                 <div className="relative overflow-hidden rounded-xl shadow-lg hover-lift">
                   <img
-                    src={demoImages[idx % demoImages.length]}
+                    src={image.image}
                     alt={image.title}
                     className="w-full h-auto group-hover:scale-110 transition-transform duration-500"
                   />
@@ -93,7 +70,7 @@ const GalleryPage = () => {
           </button>
           <div className="max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
             <img
-              src={selectedImage.demoUrl}
+              src={selectedImage.image}
               alt={selectedImage.title}
               className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
             />
