@@ -8,61 +8,109 @@
           "id": "CR-01",
           "name": "CR-01 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR01-main.jpg", "/images/main-products/CR01-3d.jpg"]
+          "images": [
+            "/images/main-products/CR01-main.jpeg",
+            "/images/main-products/CR01-3d.jpg"
+          ]
         },
         {
           "id": "CR-02",
           "name": "CR-02 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR02-main.jpg", "/images/main-products/CR02-3d.jpg"]
+          "images": [
+            "/images/main-products/CR02-main.jpeg",
+            "/images/main-products/CR02-3d.jpg"
+          ]
         },
         {
           "id": "CR-03",
           "name": "CR-03 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR03-main.jpg", "/images/main-products/CR03-3d.jpg"]
+          "images": [
+            "/images/main-products/CR03-main.jpeg",
+            "/images/main-products/CR03-3d.jpg"
+          ]
         },
         {
           "id": "CR-04",
           "name": "CR-04 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR04-main.jpg", "/images/main-products/CR04-3d.jpg"]
+          "images": [
+            "/images/main-products/CR04-main.jpeg",
+            "/images/main-products/CR04-3d.jpg"
+          ]
         },
         {
           "id": "CR-05",
           "name": "CR-05 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR05-main.jpg", "/images/main-products/CR05-3d.jpg"]
+          "images": [
+            "/images/main-products/CR05-main.jpeg",
+            "/images/main-products/CR05-3d.jpg"
+          ]
         },
         {
           "id": "CR-06",
           "name": "CR-06 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR06-main.jpg", "/images/main-products/CR06-3d.jpg"]
+          "images": [
+            "/images/main-products/CR06-main.jpeg",
+            "/images/main-products/CR06-3d.jpg"
+          ]
         },
         {
           "id": "CR-07",
           "name": "CR-07 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR07-main.jpg", "/images/main-products/CR07-3d.jpg"]
+          "images": [
+            "/images/main-products/CR07-main.jpeg",
+            "/images/main-products/CR07-3d.jpg"
+          ]
         },
         {
           "id": "CR-08",
           "name": "CR-08 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR08-main.jpg", "/images/main-products/CR08-3d.jpg"]
+          "images": [
+            "/images/main-products/CR08-main.jpeg",
+            "/images/main-products/CR08-3d.jpg"
+          ]
         },
         {
           "id": "CR-09",
           "name": "CR-09 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR09-main.jpg", "/images/main-products/CR09-3d.jpg"]
+          "images": [
+            "/images/main-products/CR09-main.png",
+            "/images/main-products/CR09-3d.jpg"
+          ]
         },
         {
           "id": "CR-10",
           "name": "CR-10 Aluminum Railing",
           "type": "aluminium",
-          "images": ["/images/main-products/CR10-main.jpg", "/images/main-products/CR10-3d.jpg"]
+          "images": [
+            "/images/main-products/CR10-main.png",
+            "/images/main-products/CR10-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-11",
+          "name": "CR-11 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR11-main.png",
+            "/images/main-products/CR11-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-12",
+          "name": "CR-12 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR12-main.png",
+            "/images/main-products/CR12-3d.jpg"
+          ]
         }
       ]
     },
@@ -71,82 +119,116 @@
       "name": "Steel & Accessories",
       "products": [
         {
-          "id": "CR-11",
+          "id": "CR-13",
           "name": "CRST-01",
           "type": "steel",
-          "images": ["/images/main-products/CRST01-main.jpg", "/images/main-products/CRST01-3d.jpg"]
-        },
-        {
-          "id": "CR-12",
-          "name": "CRST-02",
-          "type": "steel",
-          "images": ["/images/main-products/CRST02-main.jpg", "/images/main-products/CRST02-3d.jpg"]
-        },
-        {
-          "id": "CR-13",
-          "name": "CRST-03",
-          "type": "steel",
-          "images": ["/images/main-products/CRST03-main.jpg", "/images/main-products/CRST03-3d.jpg"]
+          "images": [
+            "/images/main-products/CRST01-main.jpg",
+            "/images/main-products/CRST01-3d.jpg"
+          ]
         },
         {
           "id": "CR-14",
-          "name": "CRST-04",
+          "name": "CRST-02",
           "type": "steel",
-          "images": ["/images/main-products/CRST04-main.jpg", "/images/main-products/CRST04-3d.jpg"]
+          "images": [
+            "/images/main-products/CRST02-main.png",
+            "/images/main-products/CRST02-3d.jpg"
+          ]
         },
         {
           "id": "CR-15",
-          "name": "CRST-05",
+          "name": "CRST-03",
           "type": "steel",
-          "images": ["/images/main-products/CRST05-main.jpg", "/images/main-products/CRST05-3d.jpg"]
+          "images": [
+            "/images/main-products/CRST3-main.png",
+            "/images/main-products/CRST3-3d.jpg"
+          ]
         },
         {
           "id": "CR-16",
-          "name": "CRST-06",
+          "name": "CRST-04",
           "type": "steel",
-          "images": ["/images/main-products/CRST06-main.jpg", "/images/main-products/CRST06-3d.jpg"]
+          "images": [
+            "/images/main-products/CRST04-main.jpeg",
+            "/images/main-products/CRST04-3d.jpg"
+          ]
         },
         {
           "id": "CR-17",
-          "name": "CRST-07",
+          "name": "CRST-05",
           "type": "steel",
-          "images": ["/images/main-products/CRST07-main.jpg", "/images/main-products/CRST07-3d.jpg"]
+          "images": [
+            "/images/main-products/CRST05-main.jpg",
+            "/images/main-products/CRST05-3d.jpg"
+          ]
         },
         {
           "id": "CR-18",
-          "name": "CRST-08",
+          "name": "CRST-06",
           "type": "steel",
-          "images": ["/images/main-products/CRST08-main.jpg", "/images/main-products/CRST08-3d.jpg"]
+          "images": [
+            "/images/main-products/CRST06-main.jpg",
+            "/images/main-products/CRST06-3d.jpg"
+          ]
         },
         {
           "id": "CR-19",
-          "name": "CRST-09",
+          "name": "CRST-07",
           "type": "steel",
-          "images": ["/images/main-products/CRST09-main.jpg"]
+          "images": [
+            "/images/main-products/CRST7-main.png",
+            "/images/main-products/CRST7-3d.webp"
+          ]
         },
         {
           "id": "CR-20",
-          "name": "CRST-10",
+          "name": "CRST-08",
           "type": "steel",
-          "images": ["/images/main-products/CRST10-main.jpg"]
+          "images": [
+            "/images/main-products/CRST08-main.jpg",
+            "/images/main-products/CRST08-3d.jpg"
+          ]
         },
         {
           "id": "CR-21",
-          "name": "CRST-11",
+          "name": "CRST-09",
           "type": "steel",
-          "images": ["/images/main-products/CRST11-main.jpg"]
+          "images": [
+            "/images/main-products/CRST-09-main.jpg"
+          ]
         },
         {
           "id": "CR-22",
-          "name": "CRST-12",
+          "name": "CRST-10",
           "type": "steel",
-          "images": ["/images/main-products/CRST12-main.jpg"]
+          "images": [
+            "/images/main-products/CRST10-main.jpg"
+          ]
         },
         {
           "id": "CR-23",
+          "name": "CRST-11",
+          "type": "steel",
+          "images": [
+            "/images/main-products/CRST11-main.jpg"
+          ]
+        },
+        {
+          "id": "CR-24",
+          "name": "CRST-12",
+          "type": "steel",
+          "images": [
+            "/images/main-products/CRST12-main.jpg"
+          ]
+        },
+        {
+          "id": "CR-25",
           "name": "CRST-13",
           "type": "steel",
-          "images": ["/images/main-products/CRST13-main.jpg"]
+          "images": [
+            "/images/main-products/CRST13-main.jpg"
+          ]
         }
       ]
     }
