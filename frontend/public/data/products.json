@@ -3,6 +3,8 @@
     {
       "id": "aluminium",
       "name": "Aluminium Railing",
+      "description": "CR-AL series premium aluminium railing systems.",
+      "image": "/images/main-products/CR-AL01-main.jpeg",
       "products": [
         {
           "id": "CR-01",
@@ -114,9 +116,12 @@
         }
       ]
     },
+
     {
       "id": "steel",
       "name": "Steel & Accessories",
+      "description": "CR-SA series steel accessories.",
+      "image": "/images/main-products/CR-SA-01-main.webp",
       "products": [
         {
           "id": "CR-13",
@@ -229,6 +234,162 @@
           "images": [
             "/images/main-products/CRST13-main.jpg"
           ]
+        }
+      ]
+    },
+
+    {
+      "id": "ss-steel-glass",
+      "name": "SS Steel & Glass Railing",
+      "description": "CRST series stainless steel and glass railing systems.",
+      "image": "/images/main-products/CRST05-main.jpg",
+      "products": [
+        {
+          "id": "CR-ST01",
+          "name": "CRST-01",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST01-main.jpg",
+            "/images/main-products/CRST01-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST02",
+          "name": "CRST-02",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST02-main.png",
+            "/images/main-products/CRST02-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST03",
+          "name": "CRST-03",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST3-main.png",
+            "/images/main-products/CRST3-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST04",
+          "name": "CRST-04",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST04-main.jpeg",
+            "/images/main-products/CRST04-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST05",
+          "name": "CRST-05",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST05-main.jpg",
+            "/images/main-products/CRST05-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST06",
+          "name": "CRST-06",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST06-main.jpg",
+            "/images/main-products/CRST06-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST07",
+          "name": "CRST-07",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST7-main.png",
+            "/images/main-products/CRST7-3d.webp"
+          ]
+        },
+        {
+          "id": "CR-ST08",
+          "name": "CRST-08",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST08-main.jpg",
+            "/images/main-products/CRST08-3d.jpg"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ss-pvd-coating",
+      "name": "SS Steel PVD Powder Coating",
+      "description": "CR-PVD decorative PVD coating products.",
+      "image": "/images/main-products/CR-PVD03-main.webp",
+      "products": [
+        {
+          "id": "CR-PVD01",
+          "name": "CR-PVD-01",
+          "type": "pvd",
+          "images": ["/images/main-products/CR-PVD-01-main.jpeg"]
+        },
+        {
+          "id": "CR-PVD02",
+          "name": "CR-PVD-02",
+          "type": "pvd",
+          "images": ["/images/main-products/CR-PVD-02-main.jpg"]
+        },
+        {
+          "id": "CR-PVD03",
+          "name": "CR-PVD-03",
+          "type": "pvd",
+          "images": ["/images/main-products/CR-PVD03-main.webp"]
+        }
+      ]
+    },
+
+    {
+      "id": "upvc-window-door",
+      "name": "UPVC Window Door Glass Partition",
+      "description": "CR-UPVC series windows, doors and glass partitions.",
+      "image": "/images/main-products/CR-UPVC-06-main.jpg",
+      "products": [
+        {
+          "id": "CR-UPVC01",
+          "name": "CR-UPVC-01",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-01-main.webp"]
+        },
+        {
+          "id": "CR-UPVC02",
+          "name": "CR-UPVC-02",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-02-main.webp"]
+        },
+        {
+          "id": "CR-UPVC03",
+          "name": "CR-UPVC-03",
+          "type": "upvc",
+          "images": [
+            "/images/main-products/CR-UPVC-03-main.jpg",
+            "/images/main-products/CR-UPVC-03-main.webp"
+          ]
+        },
+        {
+          "id": "CR-UPVC04",
+          "name": "CR-UPVC-04",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-04--main.jpg"]
+        },
+        {
+          "id": "CR-UPVC05",
+          "name": "CR-UPVC-05",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-05--main.jpg"]
+        },
+        {
+          "id": "CR-UPVC06",
+          "name": "CR-UPVC-06",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-06-main.jpg"]
         }
       ]
     }
