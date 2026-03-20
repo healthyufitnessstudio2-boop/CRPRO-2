@@ -1,58 +1,153 @@
 {
   "categories": [
     {
-      "id": "aluminium-glass-balcony",
-      "name": "Aluminium Glass Balcony Railing",
-      "description": "Premium aluminium glass balcony railings with 3D view, 2D diagrams. Weather-proof, UV resistant, maintenance-free.",
-      "image": "https://crprorailing.vercel.app/images/main-products/RW01-3d.jpg",
+      "id": "aluminium",
+      "name": "Aluminium Railing",
       "products": [
-        {"id": "RW-01", "name": "RW-01 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW01-3d.jpg", "description": "Profile: 55 mm X 70 mm | 100% Recyclable, Weather Proof, UV Resistant"},
-        {"id": "RW-02", "name": "RW-02 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW02-3d.jpg", "description": "Profile: 71 mm X 81 mm | Easy Cleaning, Maintenance Free, Corrosion Resistant"},
-        {"id": "RW-03", "name": "RW-03 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW03-3d.jpg", "description": "Profile: 66 mm X 70 mm | Robust for Higher Safety, UV Resistant Finish"},
-        {"id": "RW-04", "name": "RW-04 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW04-3d.jpg", "description": "Profile: 45 mm X 60 mm | Weather Proof, Maintenance Free"},
-        {"id": "RW-05", "name": "RW-05 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW05-3d.jpg", "description": "Profile: 37 mm X 81 mm | 100% Recyclable, Easy Cleaning"},
-        {"id": "RW-06", "name": "RW-06 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW06-3d.jpg", "description": "Profile: 40 mm X 100 mm | High Strength, Corrosion Resistant"},
-        {"id": "RW-07", "name": "RW-07 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW07-3d.jpg", "description": "Profile: 41 mm X 115 mm | Premium Quality, UV Resistant"},
-        {"id": "RW-08", "name": "RW-08 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW08-3d.jpg", "description": "Profile: 60 mm X 100 mm | Durable, Weather Resistant"},
-        {"id": "RW-09", "name": "RW-09 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW09-3d.jpg", "description": "Profile: 60 mm X 120 mm | Heavy Duty, Robust Design"},
-        {"id": "RW-10", "name": "RW-10 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW10-3d.jpg", "description": "Profile: 50 mm X 90 mm | Elegant Finish, Easy Installation"},
-        {"id": "RW-11", "name": "RW-11 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 125 mm | Premium Design, High Durability"},
-        {"id": "RW-12", "name": "RW-12 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 56 mm X 90 mm | Slim Profile, Modern Look"},
-        {"id": "RW-13", "name": "RW-13 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 100 mm | Standard Size, Versatile"},
-        {"id": "RW-14", "name": "RW-14 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 65 mm X 100 mm | Quality Finish, Long Lasting"},
-        {"id": "RW-15", "name": "RW-15 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 100 mm | Reliable Performance, Weather Proof"},
-        {"id": "RW-16", "name": "RW-16 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 90 mm X 115 mm | Extra Wide, Maximum Strength"},
-        {"id": "RW-17", "name": "RW-17 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 71 mm X 81 mm | Balanced Design, Easy Maintenance"},
-        {"id": "RW-18", "name": "RW-18 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 37 mm X 81 mm | Compact Size, Space Saving"},
-        {"id": "RW-19", "name": "RW-19 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/main-products/RW19-3d.jpg", "description": "Profile: 57 mm X 71 mm | Modern Design, Corrosion Free"},
-        {"id": "RW-20", "name": "RW-20 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 70 mm | Square Profile, Sturdy Build"},
-        {"id": "RW-21", "name": "RW-21 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 37 mm X 100 mm | Slim & Long, Contemporary Style"},
-        {"id": "RW-22", "name": "RW-22 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 40 mm X 80 mm | Standard Profile, Multi-Purpose"},
-        {"id": "RW-23", "name": "RW-23 Aluminum Railing", "image": "https://crprorailing.vercel.app/images/products/product-thumb-01.webp", "description": "Profile: 64 mm X 85 mm | Premium Finish, Aesthetic Appeal"}
+        {
+          "id": "CR-01",
+          "name": "CR-01 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR01-main.jpg", "/images/main-products/CR01-3d.jpg"]
+        },
+        {
+          "id": "CR-02",
+          "name": "CR-02 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR02-main.jpg", "/images/main-products/CR02-3d.jpg"]
+        },
+        {
+          "id": "CR-03",
+          "name": "CR-03 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR03-main.jpg", "/images/main-products/CR03-3d.jpg"]
+        },
+        {
+          "id": "CR-04",
+          "name": "CR-04 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR04-main.jpg", "/images/main-products/CR04-3d.jpg"]
+        },
+        {
+          "id": "CR-05",
+          "name": "CR-05 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR05-main.jpg", "/images/main-products/CR05-3d.jpg"]
+        },
+        {
+          "id": "CR-06",
+          "name": "CR-06 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR06-main.jpg", "/images/main-products/CR06-3d.jpg"]
+        },
+        {
+          "id": "CR-07",
+          "name": "CR-07 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR07-main.jpg", "/images/main-products/CR07-3d.jpg"]
+        },
+        {
+          "id": "CR-08",
+          "name": "CR-08 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR08-main.jpg", "/images/main-products/CR08-3d.jpg"]
+        },
+        {
+          "id": "CR-09",
+          "name": "CR-09 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR09-main.jpg", "/images/main-products/CR09-3d.jpg"]
+        },
+        {
+          "id": "CR-10",
+          "name": "CR-10 Aluminum Railing",
+          "type": "aluminium",
+          "images": ["/images/main-products/CR10-main.jpg", "/images/main-products/CR10-3d.jpg"]
+        }
       ]
     },
     {
-      "id": "aluminium-t-birket",
-      "name": "Aluminium T Birket Profile",
-      "description": "Premium aluminum hand rail pipes in round, square, rectangle shapes. Weather-proof and maintenance-free.",
-      "image": "https://crprorailing.vercel.app/images/category/cat-07.webp",
+      "id": "steel",
+      "name": "Steel & Accessories",
       "products": [
-        {"id": "RW-43", "name": "RW-43 Round Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "65 mm Round Pipe | Premium grade aluminum, smooth finish"},
-        {"id": "RW-44", "name": "RW-44 Round Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "50 mm Round Pipe | Standard size, versatile application"},
-        {"id": "RW-45", "name": "RW-45 Round Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "38 mm Round Pipe | Compact size, lightweight design"},
-        {"id": "RW-46", "name": "RW-46 Square Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "50×50 Square Pipe | Modern square profile, sturdy build"},
-        {"id": "RW-47", "name": "RW-47 Square Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "40×40 Square Pipe | Medium size, multi-purpose use"},
-        {"id": "RW-48", "name": "RW-48 Square Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "32×32 Square Pipe | Compact square, space-efficient"},
-        {"id": "RW-49", "name": "RW-49 Square Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "25×25 Square Pipe | Small profile, decorative use"},
-        {"id": "RW-50", "name": "RW-50 Rectangle Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "40×20 Rectangle Pipe | Elongated profile, modern look"},
-        {"id": "RW-51", "name": "RW-51 Triangle Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Triangle Pipe | Unique triangular design, contemporary style"},
-        {"id": "RW-52", "name": "RW-52 Oval Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "65×38 mm Pipe | Oval profile, ergonomic grip"},
-        {"id": "RW-53", "name": "RW-53 Small Right Angle", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Small Right Angle Pipe | Compact corner profile"},
-        {"id": "RW-54", "name": "RW-54 Right Angle Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Right Angle Pipe | Standard corner pipe"},
-        {"id": "RW-55", "name": "RW-55 Incline Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Incline Pipe | Angled profile for staircases"},
-        {"id": "RW-56", "name": "RW-56 Rajwadi Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Rajwadi Pipe | Traditional royal design"},
-        {"id": "RW-57", "name": "RW-57 Half Round Pipe", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Half Round Pipe | Semi-circular profile"},
-        {"id": "RW-58", "name": "RW-58 Flat Bar", "image": "https://crprorailing.vercel.app/images/category/cat-07.webp", "description": "Flat Bar | Sleek flat profile, minimalist design"}
+        {
+          "id": "CR-11",
+          "name": "CRST-01",
+          "type": "steel",
+          "images": ["/images/main-products/CRST01-main.jpg", "/images/main-products/CRST01-3d.jpg"]
+        },
+        {
+          "id": "CR-12",
+          "name": "CRST-02",
+          "type": "steel",
+          "images": ["/images/main-products/CRST02-main.jpg", "/images/main-products/CRST02-3d.jpg"]
+        },
+        {
+          "id": "CR-13",
+          "name": "CRST-03",
+          "type": "steel",
+          "images": ["/images/main-products/CRST03-main.jpg", "/images/main-products/CRST03-3d.jpg"]
+        },
+        {
+          "id": "CR-14",
+          "name": "CRST-04",
+          "type": "steel",
+          "images": ["/images/main-products/CRST04-main.jpg", "/images/main-products/CRST04-3d.jpg"]
+        },
+        {
+          "id": "CR-15",
+          "name": "CRST-05",
+          "type": "steel",
+          "images": ["/images/main-products/CRST05-main.jpg", "/images/main-products/CRST05-3d.jpg"]
+        },
+        {
+          "id": "CR-16",
+          "name": "CRST-06",
+          "type": "steel",
+          "images": ["/images/main-products/CRST06-main.jpg", "/images/main-products/CRST06-3d.jpg"]
+        },
+        {
+          "id": "CR-17",
+          "name": "CRST-07",
+          "type": "steel",
+          "images": ["/images/main-products/CRST07-main.jpg", "/images/main-products/CRST07-3d.jpg"]
+        },
+        {
+          "id": "CR-18",
+          "name": "CRST-08",
+          "type": "steel",
+          "images": ["/images/main-products/CRST08-main.jpg", "/images/main-products/CRST08-3d.jpg"]
+        },
+        {
+          "id": "CR-19",
+          "name": "CRST-09",
+          "type": "steel",
+          "images": ["/images/main-products/CRST09-main.jpg"]
+        },
+        {
+          "id": "CR-20",
+          "name": "CRST-10",
+          "type": "steel",
+          "images": ["/images/main-products/CRST10-main.jpg"]
+        },
+        {
+          "id": "CR-21",
+          "name": "CRST-11",
+          "type": "steel",
+          "images": ["/images/main-products/CRST11-main.jpg"]
+        },
+        {
+          "id": "CR-22",
+          "name": "CRST-12",
+          "type": "steel",
+          "images": ["/images/main-products/CRST12-main.jpg"]
+        },
+        {
+          "id": "CR-23",
+          "name": "CRST-13",
+          "type": "steel",
+          "images": ["/images/main-products/CRST13-main.jpg"]
+        }
       ]
     }
   ]
