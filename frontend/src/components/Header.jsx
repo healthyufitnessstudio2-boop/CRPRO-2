@@ -31,9 +31,9 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 text-xs md:text-sm md:py-3 md:px-4 overflow-x-auto">
-                <div className="container mx-auto flex items-center justify-between text-sm overflow-x-auto whitespace-nowrap">
-          <div className="flex items-center gap-4 min-w-max">
+      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 text-[10px] md:text-sm md:py-3 md:px-4">
+                <div className="container mx-auto flex items-center justify-between text-[10px] md:text-sm">
+          <div className="flex items-center gap-2 flex-1">
           <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-[11px] md:text-sm">
   <Phone className="w-4 h-4 mr-1 md:mr-2" />
   <span>9000916120</span>
@@ -45,7 +45,7 @@ const Header = () => {
   <span className="hidden md:inline">crprorailing@gmail.com</span> <span className="md:hidden">Email</span>
 </a>
           </div>
-          <div className="flex items-center space-x-4 min-w-max ml-4">
+          <div className="flex items-center space-x-2 ml-2">
             <span className="text-slate-300">Follow us:</span>
             <a 
               href="https://www.facebook.com/share/1ApX5UYCHB/" 
