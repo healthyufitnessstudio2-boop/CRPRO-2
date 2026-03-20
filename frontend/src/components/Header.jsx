@@ -31,160 +31,119 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-    {/* Top Bar */}
-<div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 md:py-3 md:px-4">
-  <div className="container mx-auto flex items-center justify-between text-[10px] md:text-sm">
+      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 md:py-3 md:px-4">
+        <div className="container mx-auto flex items-center justify-between text-[10px] md:text-sm">
 
-    {/* LEFT SIDE */}
-    <div className="flex items-center gap-3 font-semibold">
+          {/* LEFT */}
+          <div className="flex items-center gap-3 font-semibold">
 
-     <a href="tel:9000916120" className="flex items-center gap-1 hover:text-amber-400">
-    <Phone className="w-4 h-4" />
-    9000916120
-  </a>
+            <a href="tel:9000916120" className="flex items-center gap-1">
+              <Phone className="w-4 h-4" />
+              9000916120
+            </a>
 
-  <a href="tel:9581901555" className="flex items-center gap-1 hover:text-amber-400">
-    <Phone className="w-4 h-4" />
-    9581901555
-  </a>
+            <a href="tel:9581901555" className="flex items-center gap-1">
+              <Phone className="w-4 h-4" />
+              9581901555
+            </a>
 
-  <a href="https://wa.me/919000916120" target="_blank">
-    <img 
-      src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-      className="w-5 h-5"
-    />
-  </a>
+            <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                className="w-5 h-5"
+                alt="WhatsApp"
+              />
+            </a>
 
-</div>
+          </div>
+
+          {/* RIGHT */}
+          <div className="flex items-center gap-3">
+
+            <a href="mailto:crprorailing@gmail.com">
+              <Mail className="w-4 h-4" />
+            </a>
+
+            <a href="https://www.facebook.com/share/1ApX5UYCHB/" target="_blank" rel="noopener noreferrer">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12..." />
+              </svg>
+            </a>
+
+            <a href="https://www.instagram.com/cr_pro_railing" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                className="w-5 h-5"
+                alt="Instagram"
+              />
+            </a>
+
+          </div>
 
         </div>
+      </div>
 
-    {/* RIGHT SIDE */}
-    <div className="flex items-center gap-3">
-
-      <a href="mailto:crprorailing@gmail.com" className="hover:text-amber-400">
-        <Mail className="w-4 h-4" />
-      </a>
-
-      <a href="https://www.facebook.com/share/1ApX5UYCHB/" target="_blank" rel="noopener noreferrer">
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-        </svg>
-      </a>
-
-      <a href="https://www.instagram.com/cr_pro_railing" target="_blank" rel="noopener noreferrer">
-       <img 
-  src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-  alt="Instagram"
-  className="w-5 h-5"
-/>
-      </a>
-
-    </div>
-
-  </div>
-</div>
-  
       {/* Main Navigation */}
-      <header 
-        className={`sticky top-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-black shadow-lg' : 'bg-black/95 backdrop-blur-sm'
-        }`}
-      >
+      <header className={`sticky top-0 z-50 ${isScrolled ? 'bg-black shadow-lg' : 'bg-black/95 backdrop-blur-sm'}`}>
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-           {/* Logo + Text */}
-<Link to="/" className="flex items-center space-x-3 group">
-  <img 
-    src="/logo.png"
-    alt="CR PRO RAILING" 
-    className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
-  />
-  <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent font-extrabold text-sm md:text-2xl tracking-wide whitespace-nowrap">
-    CR PRO RAILING
-  </span>
-</Link>
 
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-1">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
-                    location.pathname === link.path
-                      ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white'
-                      : 'text-white hover:bg-slate-800 hover:text-amber-400'
-                  }`}
-                >
+            {/* Logo */}
+            <Link to="/" className="flex items-center space-x-3">
+              <img src="/logo.png" alt="CR PRO" className="h-10 md:h-14" />
+              <span className="text-amber-400 font-bold text-sm md:text-2xl">
+                CR PRO RAILING
+              </span>
+            </Link>
+
+            {/* Desktop Menu */}
+            <nav className="hidden lg:flex space-x-4">
+              {navLinks.map(link => (
+                <Link key={link.path} to={link.path} className="text-white hover:text-amber-400">
                   {link.name}
                 </Link>
               ))}
             </nav>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden p-2 rounded-lg hover:bg-slate-800 transition-colors"
-            >
-              {isMenuOpen ? (
-                <X className="w-6 h-6 text-white" />
-              ) : (
-                <Menu className="w-6 h-6 text-white" />
-              )}
+            {/* Mobile Button */}
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="lg:hidden text-white">
+              {isMenuOpen ? <X /> : <Menu />}
             </button>
+
           </div>
 
-          {/* Mobile Navigation */}
+          {/* Mobile Menu */}
           {isMenuOpen && (
-            <nav className="lg:hidden mt-4 pb-4 animate-fade-in-up">
-              <div className="flex flex-col space-y-2">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.path}
-                    to={link.path}
-                    className={`px-4 py-3 rounded-lg font-medium transition-all ${
-                      location.pathname === link.path
-                        ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white'
-                        : 'text-white hover:bg-slate-800 hover:text-amber-400'
-                    }`}
-                  >
-                    {link.name}
-                  </Link>
-                ))}
-                <div className="pt-4 border-t border-slate-700">
-                 <div className="flex items-center gap-3 px-4 py-2 text-white">
+            <div className="mt-4 space-y-3 text-white">
 
-     <a href="tel:9000916120" className="flex items-center gap-1">
-    <Phone className="w-4 h-4" />
-    9000916120
-  </a>
+              {navLinks.map(link => (
+                <Link key={link.path} to={link.path} className="block">
+                  {link.name}
+                </Link>
+              ))}
 
-  <a href="tel:9581901555" className="flex items-center gap-1">
-    <Phone className="w-4 h-4" />
-    9581901555
-  </a>
+              <div className="border-t pt-3">
 
-</div>
+                <a href="tel:9000916120" className="block">
+                  9000916120
+                </a>
 
-  </div>
-  <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
-  <img 
-  src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-  className="w-5 h-5"
-/>
-  </a>
+                <a href="tel:9581901555" className="block">
+                  9581901555
+                </a>
 
-</div>
-                
-  <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
-  <Mail className="w-4 h-4 mr-2" />
-  crprorailing@gmail.com
-</a>
-                </div>
+                <a href="https://wa.me/919000916120" target="_blank">
+                  <img 
+                    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                    className="w-5 h-5 mt-2"
+                  />
+                </a>
+
               </div>
-            </nav>
+
+            </div>
           )}
+
         </div>
       </header>
     </>
