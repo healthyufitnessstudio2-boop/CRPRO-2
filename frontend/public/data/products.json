@@ -1,4 +1,17 @@
 {
+  "commonData": {
+    "features": [
+      "Premium Quality Material",
+      "Weather Resistant",
+      "Easy Installation",
+      "Low Maintenance"
+    ],
+    "glass": [
+      "12 mm Toughened Glass",
+      "25 mm Laminated Glass"
+    ]
+  },
+
   "categories": [
     {
       "id": "aluminium",
@@ -6,15 +19,22 @@
       "description": "CR-AL series premium aluminium railing systems.",
       "image": "/images/main-products/CR-AL01-main.jpeg",
       "products": [
-        {
-          "id": "CR-01",
-          "name": "CR-01 Aluminum Railing",
-          "type": "aluminium",
-          "images": [
-            "/images/main-products/CR01-main.jpeg",
-            "/images/main-products/CR01-3d.jpg"
-          ]
-        },
+       {
+  "id": "CR-01",
+  "name": "CR-01 Aluminum Railing",
+  "type": "aluminium",
+  "images": [
+    "/images/main-products/CR01-main.jpeg",
+    "/images/main-products/CR01-3d.jpg"
+  ],
+
+  "specifications": {
+    "model": "CR-01",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
+},
         {
           "id": "CR-02",
           "name": "CR-02 Aluminum Railing",
@@ -22,7 +42,13 @@
           "images": [
             "/images/main-products/CR02-main.jpeg",
             "/images/main-products/CR02-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-02",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-03",
@@ -31,7 +57,14 @@
           "images": [
             "/images/main-products/CR03-main.jpeg",
             "/images/main-products/CR03-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-03",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
+          
         },
         {
           "id": "CR-04",
@@ -40,7 +73,13 @@
           "images": [
             "/images/main-products/CR04-main.jpeg",
             "/images/main-products/CR04-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-04",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-05",
@@ -49,7 +88,13 @@
           "images": [
             "/images/main-products/CR05-main.jpeg",
             "/images/main-products/CR05-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-05",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-06",
@@ -58,7 +103,13 @@
           "images": [
             "/images/main-products/CR06-main.jpeg",
             "/images/main-products/CR06-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-06",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-07",
@@ -67,7 +118,13 @@
           "images": [
             "/images/main-products/CR07-main.jpeg",
             "/images/main-products/CR07-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-07",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-08",
@@ -76,7 +133,13 @@
           "images": [
             "/images/main-products/CR08-main.jpeg",
             "/images/main-products/CR08-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-08",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-09",
@@ -85,7 +148,13 @@
           "images": [
             "/images/main-products/CR09-main.png",
             "/images/main-products/CR09-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-09",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-10",
@@ -94,7 +163,13 @@
           "images": [
             "/images/main-products/CR10-main.png",
             "/images/main-products/CR10-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-10",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-11",
@@ -103,7 +178,13 @@
           "images": [
             "/images/main-products/CR11-main.png",
             "/images/main-products/CR11-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-11",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-12",
@@ -112,7 +193,13 @@
           "images": [
             "/images/main-products/CR12-main.png",
             "/images/main-products/CR12-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-12",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         }
       ]
     },
@@ -130,7 +217,13 @@
           "images": [
             "/images/main-products/CRST01-main.jpg",
             "/images/main-products/CRST01-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-13",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-14",
@@ -139,7 +232,13 @@
           "images": [
             "/images/main-products/CRST02-main.png",
             "/images/main-products/CRST02-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-14",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-15",
@@ -148,7 +247,13 @@
           "images": [
             "/images/main-products/CRST3-main.png",
             "/images/main-products/CRST3-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-15",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-16",
@@ -157,7 +262,13 @@
           "images": [
             "/images/main-products/CRST04-main.jpeg",
             "/images/main-products/CRST04-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-16",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-17",
@@ -166,7 +277,13 @@
           "images": [
             "/images/main-products/CRST05-main.jpg",
             "/images/main-products/CRST05-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-17",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-18",
@@ -175,7 +292,13 @@
           "images": [
             "/images/main-products/CRST06-main.jpg",
             "/images/main-products/CRST06-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-18",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-19",
@@ -184,7 +307,13 @@
           "images": [
             "/images/main-products/CRST7-main.png",
             "/images/main-products/CRST7-3d.webp"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-19",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-20",
@@ -193,7 +322,13 @@
           "images": [
             "/images/main-products/CRST08-main.jpg",
             "/images/main-products/CRST08-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-20",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-21",
@@ -201,7 +336,13 @@
           "type": "steel",
           "images": [
             "/images/main-products/CRST-09-main.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-21",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-22",
@@ -209,7 +350,13 @@
           "type": "steel",
           "images": [
             "/images/main-products/CRST10-main.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-22",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-23",
@@ -217,7 +364,13 @@
           "type": "steel",
           "images": [
             "/images/main-products/CRST11-main.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-23",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-24",
@@ -225,7 +378,13 @@
           "type": "steel",
           "images": [
             "/images/main-products/CRST12-main.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-24",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-25",
@@ -233,7 +392,13 @@
           "type": "steel",
           "images": [
             "/images/main-products/CRST13-main.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-25",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         }
       ]
     },
@@ -251,7 +416,13 @@
           "images": [
             "/images/main-products/CRST01-main.jpg",
             "/images/main-products/CRST01-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST01",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST02",
@@ -260,7 +431,13 @@
           "images": [
             "/images/main-products/CRST02-main.png",
             "/images/main-products/CRST02-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST02",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST03",
@@ -269,7 +446,13 @@
           "images": [
             "/images/main-products/CRST3-main.png",
             "/images/main-products/CRST3-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST03",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST04",
@@ -278,7 +461,13 @@
           "images": [
             "/images/main-products/CRST04-main.jpeg",
             "/images/main-products/CRST04-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST04",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST05",
@@ -287,7 +476,13 @@
           "images": [
             "/images/main-products/CRST05-main.jpg",
             "/images/main-products/CRST05-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST05",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST06",
@@ -296,7 +491,13 @@
           "images": [
             "/images/main-products/CRST06-main.jpg",
             "/images/main-products/CRST06-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST06",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST07",
@@ -305,7 +506,13 @@
           "images": [
             "/images/main-products/CRST7-main.png",
             "/images/main-products/CRST7-3d.webp"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST07",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-ST08",
@@ -314,7 +521,13 @@
           "images": [
             "/images/main-products/CRST08-main.jpg",
             "/images/main-products/CRST08-3d.jpg"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-ST08",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         }
       ]
     },
@@ -329,19 +542,37 @@
           "id": "CR-PVD01",
           "name": "CR-PVD-01",
           "type": "pvd",
-          "images": ["/images/main-products/CR-PVD-01-main.jpeg"]
+          "images": ["/images/main-products/CR-PVD-01-main.jpeg"],
+          "specifications": {
+    "model": "CR-PVD01",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-PVD02",
           "name": "CR-PVD-02",
           "type": "pvd",
-          "images": ["/images/main-products/CR-PVD-02-main.jpg"]
+          "images": ["/images/main-products/CR-PVD-02-main.jpg"],
+          "specifications": {
+    "model": "CR-PVD02",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-PVD03",
           "name": "CR-PVD-03",
           "type": "pvd",
-          "images": ["/images/main-products/CR-PVD03-main.webp"]
+          "images": ["/images/main-products/CR-PVD03-main.webp"],
+          "specifications": {
+    "model": "CR-PVD03",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         }
       ]
     },
@@ -356,13 +587,25 @@
           "id": "CR-UPVC01",
           "name": "CR-UPVC-01",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-01-main.webp"]
+          "images": ["/images/main-products/CR-UPVC-01-main.webp"],
+          "specifications": {
+    "model": "CR-UPVC01",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-UPVC02",
           "name": "CR-UPVC-02",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-02-main.webp"]
+          "images": ["/images/main-products/CR-UPVC-02-main.webp"],
+          "specifications": {
+    "model": "CR-UPVC02",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-UPVC03",
@@ -371,25 +614,49 @@
           "images": [
             "/images/main-products/CR-UPVC-03-main.jpg",
             "/images/main-products/CR-UPVC-03-main.webp"
-          ]
+          ],
+          "specifications": {
+    "model": "CR-UPVC03",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
-        {
+                {
           "id": "CR-UPVC04",
           "name": "CR-UPVC-04",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-04--main.jpg"]
+          "images": ["/images/main-products/CR-UPVC-04--main.jpg"],
+          "specifications": {
+    "model": "CR-UPVC04",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-UPVC05",
           "name": "CR-UPVC-05",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-05--main.jpg"]
+          "images": ["/images/main-products/CR-UPVC-05--main.jpg"],
+          "specifications": {
+    "model": "CR-UPVC05",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         },
         {
           "id": "CR-UPVC06",
           "name": "CR-UPVC-06",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-06-main.jpg"]
+          "images": ["/images/main-products/CR-UPVC-06-main.jpg"],
+          "specifications": {
+    "model": "CR-UPVC06",
+    "weight": "0.700 gm (1 Feet)",
+    "length": "13 ft / 16 ft",
+    "profile": "55 mm X 70 mm"
+  }
         }
       ]
     }
