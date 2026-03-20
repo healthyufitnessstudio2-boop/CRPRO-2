@@ -1,53 +1,360 @@
 {
   "categories": [
     {
-      "id": "aluminum-railing-profiles",
-      "name": "Aluminum Railing Profiles",
-      "description": "Premium aluminum railing profiles with 3D view, 2D diagrams. Weather-proof, UV resistant, maintenance-free.",
-      "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW01-3d.jpg",
+      "id": "aluminium",
+      "name": "Aluminium Railing",
+      "description": "CR-AL series premium aluminium railing systems.",
+      "image": "/images/main-products/CR-AL01-main.jpeg",
       "products": [
-        {"id": "RW-01", "name": "RW-01 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW01-3d.jpg", "description": "Profile: 55 mm X 70 mm | 100% Recyclable, Weather Proof, UV Resistant"},
-        {"id": "RW-02", "name": "RW-02 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW02-3d.jpg", "description": "Profile: 71 mm X 81 mm | Easy Cleaning, Maintenance Free, Corrosion Resistant"},
-        {"id": "RW-03", "name": "RW-03 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW03-3d.jpg", "description": "Profile: 66 mm X 70 mm | Robust for Higher Safety, UV Resistant Finish"},
-        {"id": "RW-04", "name": "RW-04 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW04-3d.jpg", "description": "Profile: 45 mm X 60 mm | Weather Proof, Maintenance Free"},
-        {"id": "RW-05", "name": "RW-05 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW05-3d.jpg", "description": "Profile: 37 mm X 81 mm | 100% Recyclable, Easy Cleaning"},
-        {"id": "RW-06", "name": "RW-06 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW06-3d.jpg", "description": "Profile: 40 mm X 100 mm | High Strength, Corrosion Resistant"},
-        {"id": "RW-07", "name": "RW-07 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW07-3d.jpg", "description": "Profile: 41 mm X 115 mm | Premium Quality, UV Resistant"},
-        {"id": "RW-08", "name": "RW-08 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW08-3d.jpg", "description": "Profile: 60 mm X 100 mm | Durable, Weather Resistant"},
-        {"id": "RW-09", "name": "RW-09 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW09-3d.jpg", "description": "Profile: 60 mm X 120 mm | Heavy Duty, Robust Design"},
-        {"id": "RW-10", "name": "RW-10 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW10-3d.jpg", "description": "Profile: 50 mm X 90 mm | Elegant Finish, Easy Installation"},
-        {"id": "RW-11", "name": "RW-11 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 125 mm | Premium Design, High Durability"},
-        {"id": "RW-12", "name": "RW-12 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 56 mm X 90 mm | Slim Profile, Modern Look"},
-        {"id": "RW-13", "name": "RW-13 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 100 mm | Standard Size, Versatile"},
-        {"id": "RW-14", "name": "RW-14 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 65 mm X 100 mm | Quality Finish, Long Lasting"},
-        {"id": "RW-15", "name": "RW-15 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 100 mm | Reliable Performance, Weather Proof"},
-        {"id": "RW-16", "name": "RW-16 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 90 mm X 115 mm | Extra Wide, Maximum Strength"},
-        {"id": "RW-17", "name": "RW-17 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 71 mm X 81 mm | Balanced Design, Easy Maintenance"},
-        {"id": "RW-18", "name": "RW-18 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 37 mm X 81 mm | Compact Size, Space Saving"},
-        {"id": "RW-19", "name": "RW-19 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/RW19-3d.jpg", "description": "Profile: 57 mm X 71 mm | Modern Design, Corrosion Free"},
-        {"id": "RW-20", "name": "RW-20 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 70 mm X 70 mm | Square Profile, Sturdy Build"},
-        {"id": "RW-21", "name": "RW-21 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 37 mm X 100 mm | Slim & Long, Contemporary Style"},
-        {"id": "RW-22", "name": "RW-22 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 40 mm X 80 mm | Standard Profile, Multi-Purpose"},
-        {"id": "RW-23", "name": "RW-23 Aluminum Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/products/product-thumb-01.webp", "description": "Profile: 64 mm X 85 mm | Premium Finish, Aesthetic Appeal"}
+        {
+          "id": "CR-AL01",
+          "name": "CR-AL01 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL01-main.jpeg",
+            "/images/main-products/CR-AL01-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL02",
+          "name": "CR-AL02 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL02-main.jpeg",
+            "/images/main-products/CR-AL02-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL03",
+          "name": "CR-AL03 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL03-main.jpeg",
+            "/images/main-products/CR-AL03-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL04",
+          "name": "CR-AL04 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL04-main.jpeg",
+            "/images/main-products/CR-AL04-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL05",
+          "name": "CR-AL05 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL05-main.jpeg",
+            "/images/main-products/CR-AL05-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL06",
+          "name": "CR-AL06 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL06-main.jpeg",
+            "/images/main-products/CR-AL06-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL07",
+          "name": "CR-AL07 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL07-main.jpeg",
+            "/images/main-products/CR-AL07-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL08",
+          "name": "CR-AL08 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL08-main.jpeg",
+            "/images/main-products/CR-AL08-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL09",
+          "name": "CR-AL09 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL09-main.png",
+            "/images/main-products/CR-AL09-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL10",
+          "name": "CR-AL10 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL10-main.png",
+            "/images/main-products/CR-AL10-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL11",
+          "name": "CR-AL11 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL11-main.png",
+            "/images/main-products/CR-AL11-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-AL12",
+          "name": "CR-AL12 Aluminum Railing",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR-AL12-main.png",
+            "/images/main-products/CR-AL12-3d.jpg"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "steel",
+      "name": "Steel & Accessories",
+      "description": "CR-SA series steel accessories.",
+      "image": "/images/main-products/CR-SA-01-main.webp",
+      "products": [
+        {
+          "id": "CR-SA01",
+          "name": "CR-SA-01",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-01-main.webp"]
+        },
+        {
+          "id": "CR-SA02",
+          "name": "CR-SA-02",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-02-main.webp"]
+        },
+        {
+          "id": "CR-SA03",
+          "name": "CR-SA-03",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-03-main.jpg"]
+        },
+        {
+          "id": "CR-SA04",
+          "name": "CR-SA-04",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-04-main.jpg"]
+        },
+        {
+          "id": "CR-SA05",
+          "name": "CR-SA-05",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-05-main.jpg"]
+        },
+        {
+          "id": "CR-SA06",
+          "name": "CR-SA-06",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-06-main.jpg"]
+        },
+        {
+          "id": "CR-SA07",
+          "name": "CR-SA-07",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-07-main.jpg"]
+        },
+        {
+          "id": "CR-SA08",
+          "name": "CR-SA-08",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-08-main.jpg"]
+        },
+        {
+          "id": "CR-SA10",
+          "name": "CR-SA-10",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-10-main.jpg"]
+        },
+        {
+          "id": "CR-SA11",
+          "name": "CR-SA-11",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-11-main.jpg"]
+        },
+        {
+          "id": "CR-SA12",
+          "name": "CR-SA-12",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-12.jpg"]
+        },
+        {
+          "id": "CR-SA13",
+          "name": "CR-SA-13",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-13-main.jpg"]
+        },
+        {
+          "id": "CR-SA14",
+          "name": "CR-SA-14",
+          "type": "steel-accessory",
+          "images": ["/images/main-products/CR-SA-14-main.jpg"]
+        }
+      ]
+    },
+
+    {
+      "id": "ss-steel-glass",
+      "name": "SS Steel & Glass Railing",
+      "description": "CRST series stainless steel and glass railing systems.",
+      "image": "/images/main-products/CRST05-main.jpg",
+      "products": [
+        {
+          "id": "CR-ST01",
+          "name": "CRST-01",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST01-main.jpg",
+            "/images/main-products/CRST01-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST02",
+          "name": "CRST-02",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST02-main.png",
+            "/images/main-products/CRST02-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST03",
+          "name": "CRST-03",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST3-main.png",
+            "/images/main-products/CRST3-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST04",
+          "name": "CRST-04",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST04-main.jpeg",
+            "/images/main-products/CRST04-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST05",
+          "name": "CRST-05",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST05-main.jpg",
+            "/images/main-products/CRST05-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST06",
+          "name": "CRST-06",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST06-main.jpg",
+            "/images/main-products/CRST06-3d.jpg"
+          ]
+        },
+        {
+          "id": "CR-ST07",
+          "name": "CRST-07",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST7-main.png",
+            "/images/main-products/CRST7-3d.webp"
+          ]
+        },
+         {
+          "id": "CR-ST08",
+          "name": "CRST-08",
+          "type": "ss-steel-glass",
+          "images": [
+            "/images/main-products/CRST08-main.jpg",
+            "/images/main-products/CRST08-3d.jpg"
+          ]
+        }
+      ]
+    },
+         {
+      "id": "ss-pvd-coating",
+      "name": "SS Steel PVD Powder Coating",
+      "description": "CR-PVD decorative PVD coating products.",
+      "image": "/images/main-products/CR-PVD03-main.webp",
+      "products": [
+        {
+          "id": "CR-PVD01",
+          "name": "CR-PVD-01",
+          "type": "pvd",
+          "images": ["/images/main-products/CR-PVD-01-main.jpeg"]
+        },
+        {
+          "id": "CR-PVD02",
+          "name": "CR-PVD-02",
+          "type": "pvd",
+          "images": ["/images/main-products/CR-PVD-02-main.jpg"]
+        },
+        {
+          "id": "CR-PVD03",
+          "name": "CR-PVD-03",
+          "type": "pvd",
+          "images": ["/images/main-products/CR-PVD-03-main.jpg"]
+        }
       ]
     },
     {
-      "id": "steel-ss-railing",
-      "name": "Steel / SS Railing Profiles",
-      "description": "High-quality stainless steel railing systems with custom profiles. Durable, corrosion-resistant, and modern designs.",
-      "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST01-3d.jpg",
+      "id": "upvc-window-door",
+      "name": "UPVC Window Door Glass Partition",
+      "description": "CR-UPVC series windows, doors and glass partitions.",
+      "image": "/images/main-products/CR-UPVC-06-main.jpg",
       "products": [
-        {"id": "RW-ST01", "name": "RW-ST01 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST01-3d.jpg", "description": "Profile: 40 mm X 200 mm | Heavy Duty Steel, High Load Capacity"},
-        {"id": "RW-ST02", "name": "RW-ST02 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST02-3d.jpg", "description": "Profile: Custom | Tailor-Made Design, Premium Stainless Steel"},
-        {"id": "RW-ST03", "name": "RW-ST03 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST03-3d.jpg", "description": "Profile: Custom | Modern Aesthetic, Corrosion Proof"},
-        {"id": "RW-ST04", "name": "RW-ST04 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST04-3d.jpg", "description": "Profile: Custom | Elegant Finish, Long Lasting"},
-        {"id": "RW-ST05", "name": "RW-ST05 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST05-3d.jpg", "description": "Profile: Custom | Contemporary Design, Easy Maintenance"},
-        {"id": "RW-ST06", "name": "RW-ST06 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST06-3d.jpg", "description": "Profile: Custom | High Quality Steel, Weather Resistant"},
-        {"id": "RW-ST07", "name": "RW-ST07 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST07-3d.jpg", "description": "Profile: Custom | Precision Engineering, Robust Build"},
-        {"id": "RW-ST08", "name": "RW-ST08 Steel Railing", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/main-products/ST08-3d.jpg", "description": "Profile: Custom | Professional Grade, Superior Finish"},
-        {"id": "SS-RAILING", "name": "SS Railing System", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/products-pg-9.jpg", "description": "Profile: 38mm / 50mm pipes | Premium SS 304/316, Mirror & Satin Finish"},
-        {"id": "SS-ACCESSORIES", "name": "SS Railing Accessories", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/products-pg-8.jpg", "description": "Profile: 12mm / 16mm rods | Complete Accessory Kit, All Fittings Included"},
-        {"id": "SS-TABLES", "name": "SS Center Tables (PVD Coated)", "image": "https://customer-assets.emergentagent.com/job_crpro-railing/artifacts/images/kavi/pvd-coated-center-table2.png", "description": "Custom sizes | Gold/Rose Gold/Black PVD Coating, Designer Furniture"}
+        {
+          "id": "CR-UPVC01",
+          "name": "CR-UPVC-01",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-01-main.webp"]
+        },
+        {
+          "id": "CR-UPVC02",
+          "name": "CR-UPVC-02",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-02-main.webp"]
+        },
+        {
+          "id": "CR-UPVC03",
+          "name": "CR-UPVC-03",
+          "type": "upvc",
+          "images": [
+            "/images/main-products/CR-UPVC-03-main.jpg",
+            "/images/main-products/CR-UPVC-03-main.webp"
+          ]
+        },
+        {
+          "id": "CR-UPVC04",
+          "name": "CR-UPVC-04",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-04--main.jpg"]
+        },
+        {
+          "id": "CR-UPVC05",
+          "name": "CR-UPVC-05",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-05--main.jpg"]
+        },
+        {
+          "id": "CR-UPVC06",
+          "name": "CR-UPVC-06",
+          "type": "upvc",
+          "images": ["/images/main-products/CR-UPVC-06-main.jpg"]
+        }
       ]
     }
   ]
