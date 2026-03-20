@@ -34,10 +34,17 @@ const Header = () => {
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-4 hidden md:block">
         <div className="container mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center space-x-6">
-            <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors">
-              <Phone className="w-4 h-4 mr-2" />
-              9000916120 / 9581901555
-            </a>
+          <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-sm">
+  <Phone className="w-5 h-5 mr-2" />
+  <span>9000916120</span>
+  <span className="mx-1">/</span>
+  <span>9581901555</span>
+</a>
+<a href="mailto:crprorailing@gmail.com" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-sm">
+  <Mail className="w-5 h-5 mr-2" />
+  <span>crprorailing@gmail.com</span>
+</a>
+
             <a href="mailto:crprorailing@gmail.com" className="flex items-center hover:text-amber-400 transition-colors">
               <Mail className="w-4 h-4 mr-2" />
               crprorailing@gmail.com
