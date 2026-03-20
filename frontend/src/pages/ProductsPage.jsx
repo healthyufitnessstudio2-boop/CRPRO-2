@@ -13,7 +13,20 @@ const ProductsPage = () => {
   useEffect(() => {
     Promise.all([
       fetch('/data/products.json').then(res => res.json()),
-      fetch('/data/categories-additional.json').then(res => res.json())
+      fetch('/data/products.json')
+  .then(res => res.json())
+  .then(data => {
+    setAllCategories(data.categories);
+
+    if (categoryId) {
+      const cat = data.categories.find(c => c.id === categoryId);
+      setSelectedCategory(cat);
+      setFilteredProducts(cat?.products || []);
+    } else {
+      const allProds = data.categories.flatMap(c => c.products);
+      setFilteredProducts(allProds);
+    }
+  });
     ])
       .then(([products, additional]) => {
         const allCats = [...products.categories, ...additional.categories];
@@ -104,12 +117,12 @@ const ProductsPage = () => {
               >
                 <div className="aspect-square overflow-hidden bg-slate-100">
                   <img
-                    src={product.image}
+                    src={product.images?.[0]}
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     onError={(e) => {
-                      e.target.src = 'https://via.placeholder.com/400x400?text=CR+PRO+RAILING';
-                    }}
+  e.target.style.display = 'none';
+}}
                   />
                 </div>
                 <div className="p-3">
@@ -157,7 +170,7 @@ const ProductsPage = () => {
                 {/* Product Image */}
                 <div className="bg-slate-100 rounded-xl overflow-hidden aspect-square">
                   <img
-                    src={selectedProduct.image}
+                    src={selectedProduct.images?.[0]}
                     alt={selectedProduct.name}
                     className="w-full h-full object-contain p-4"
                     onError={(e) => {
