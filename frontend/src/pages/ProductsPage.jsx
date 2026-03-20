@@ -66,7 +66,7 @@ const ProductsPage = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-     <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12 w-full">
+    <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12 w-full">
   <div className="w-full px-4">
           {categoryId && (
             <Link
