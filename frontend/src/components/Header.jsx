@@ -31,8 +31,8 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-4 hidden md:block">
-        <div className="container mx-auto flex justify-between items-center text-sm">
+      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 text-xs md:text-sm md:py-3 md:px-4">
+                <div className="container mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center space-x-6">
           <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-sm">
   <Phone className="w-5 h-5 mr-2" />
@@ -79,19 +79,17 @@ const Header = () => {
       >
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            {/* Logo + Text */}
-            <Link to="/" className="flex items-center space-x-3 group">
-              <img 
-                src="/logo.png"
-                alt="CR PRO RAILING" 
-                className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
-              />
-            <div className="hidden sm:block overflow-hidden">
-  <span className="text-white font-bold text-sm md:text-xl whitespace-nowrap animate-scroll inline-block">
+           {/* Logo + Text */}
+<Link to="/" className="flex items-center space-x-2 group">
+  <img 
+    src="/logo.png"
+    alt="CR PRO RAILING" 
+    className="h-8 md:h-14 w-auto transition-transform group-hover:scale-105"
+  />
+  <span className="text-white font-bold text-xs md:text-lg whitespace-nowrap">
     CR PRO RAILING
   </span>
-</div>
-            </Link>
+</Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-1">
@@ -145,10 +143,10 @@ const Header = () => {
                     <Phone className="w-4 h-4 mr-2" />
                     9000916120
                   </a>
-                  <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
-                    <Mail className="w-4 h-4 mr-2" />
-                    crprorailing@gmail.com
-                  </a>
+                <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
+  <Mail className="w-4 h-4 mr-2" />
+  crprorailing@gmail.com
+</a>
                 </div>
               </div>
             </nav>
