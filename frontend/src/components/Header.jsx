@@ -65,10 +65,12 @@ const Header = () => {
             </a>
 
             <a href="https://www.facebook.com/share/1ApX5UYCHB/" target="_blank" rel="noopener noreferrer">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M24 12.073c0-6.627-5.373-12-12-12..." />
-              </svg>
-            </a>
+  <img 
+    src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+    className="w-5 h-5"
+    alt="Facebook"
+  />
+</a>
 
             <a href="https://www.instagram.com/cr_pro_railing" target="_blank" rel="noopener noreferrer">
               <img 
