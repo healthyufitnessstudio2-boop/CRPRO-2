@@ -33,8 +33,8 @@
           "description": "Model Name : CR–01\nWeight : 0.700 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 55 mm X 70 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR01-main.jpeg",
-            "/images/main-products/CR01-3d.jpg"
+            "/images/main-products/CR-AL01-main.jpeg",
+            "/images/main-products/CR-AL01-3d.jpg"
           ]
         },
         {
@@ -43,8 +43,8 @@
           "description": "Model Name : CR–02\nWeight : 0.850 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 71 mm X 81 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR02-main.jpeg",
-            "/images/main-products/CR02-3d.jpg"
+            "/images/main-products/CR-AL02-main.jpeg",
+            "/images/main-products/CR-AL02-3d.jpg"
           ]
         },
         {
@@ -53,8 +53,8 @@
           "description": "Model Name : CR–03\nWeight : 0.600 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 66 mm X 70 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR03-main.jpeg",
-            "/images/main-products/CR03-3d.jpg"
+            "/images/main-products/CR-AL03-main.jpeg",
+            "/images/main-products/CR-AL03-3d.jpg"
           ]
         },
         {
@@ -63,8 +63,8 @@
           "description": "Model Name : CR–04\nWeight : 0.500 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 45 mm X 60 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR04-main.jpeg",
-            "/images/main-products/CR04-3d.jpg"
+            "/images/main-products/CR-AL04-main.jpeg",
+            "/images/main-products/CR-AL04-3d.jpg"
           ]
         },
         {
@@ -73,8 +73,8 @@
           "description": "Model Name : CR–05\nWeight : 0.950 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 37 mm X 81 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR05-main.jpeg",
-            "/images/main-products/CR05-3d.jpg"
+            "/images/main-products/CR-AL05-main.jpeg",
+            "/images/main-products/CR-AL05-3d.jpg"
           ]
         },
         {
@@ -83,8 +83,8 @@
           "description": "Model Name : CR–06\nWeight : 1.100 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 40 mm X 100 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR06-main.jpeg",
-            "/images/main-products/CR06-3d.jpg"
+            "/images/main-products/CR-AL06-main.jpeg",
+            "/images/main-products/CR-AL06-3d.jpg"
           ]
         },
         {
@@ -93,8 +93,8 @@
           "description": "Model Name : CR–07\nWeight : 1.500 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 41 mm X 115 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR07-main.jpeg",
-            "/images/main-products/CR07-3d.jpg"
+            "/images/main-products/CR-AL07-main.jpeg",
+            "/images/main-products/CR-AL07-3d.jpg"
           ]
         },
         {
@@ -103,8 +103,8 @@
           "description": "Model Name : CR–08\nWeight : 1.100 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 60 mm X 100 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR08-main.jpeg",
-            "/images/main-products/CR08-3d.jpg"
+            "/images/main-products/CR-AL08-main.jpeg",
+            "/images/main-products/CR-AL08-3d.jpg"
           ]
         },
         {
@@ -113,8 +113,8 @@
           "description": "Model Name : CR–09\nWeight : 1.500 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 60 mm X 120 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR09-main.png",
-            "/images/main-products/CR09-3d.jpg"
+            "/images/main-products/CR-AL09-main.png",
+            "/images/main-products/CR-AL09-3d.jpg"
           ]
         },
         {
@@ -123,8 +123,8 @@
           "description": "Model Name : CR–10\nWeight : 0.950 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 50 mm X 90 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR10-main.png",
-            "/images/main-products/CR10-3d.jpg"
+            "/images/main-products/CR-AL10-main.png",
+            "/images/main-products/CR-AL10-3d.jpg"
           ]
         },
         {
@@ -133,8 +133,8 @@
           "description": "Model Name : CR–19\nWeight : 750 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 57 mm X 71 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR11-main.png",
-            "/images/main-products/CR11-3d.jpg"
+            "/images/main-products/CR-AL11-main.png",
+            "/images/main-products/CR-AL11-3d.jpg"
           ]
         },
         {
@@ -143,8 +143,8 @@
           "description": "Model Name : CR–35\nWeight : 160 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 40 mm X 200 mm",
           "type": "aluminium",
           "images": [
-            "/images/main-products/CR12-main.png",
-            "/images/main-products/CR12-3d.jpg"
+            "/images/main-products/CR-AL12-main.png",
+            "/images/main-products/CR-AL12-3d.jpg"
           ]
         }
       ]
@@ -156,88 +156,8 @@
       "image": "/images/main-products/CR-SA-01-main.webp",
       "products": [
         {
-          "id": "CR-13",
-          "name": "CRST-01",
-          "description": "Model Name : CR–35\nWeight : 160 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 40 mm X 200 mm",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST01-main.jpg",
-            "/images/main-products/CRST01-3d.jpg"
-          ]
-        },
-        {
-          "id": "CR-14",
-          "name": "CRST-02",
-          "description": "Model Name : CR–36\nTOP MOUNTING HOLLOW SHORT SQUARE BALUSTER WITH GLASS HOLDING SYSTEM FOR BALCONY & STAIRCASE\nThe Product Named As H & B System Which Gives Marvelous Look Of Premises For Balcony & Staircase.\nIt's elegant Look Provide The Perfect View Of The Premises.\nAvailable In Different Finishes Like Gold, Black & S.S. Matt.",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST02-main.png",
-            "/images/main-products/CRST02-3d.jpg"
-          ]
-        },
-        {
-          "id": "CR-15",
-          "name": "CRST-03",
-          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt provides Unique Combination Of Slotted Handrail & Round Solid Spigot For Balcony.\nIt is Innovative Design Provide The Glorious Face-Lift Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST3-main.png",
-            "/images/main-products/CRST3-3d.jpg"
-          ]
-        },
-        {
-          "id": "CR-16",
-          "name": "CRST-04",
-          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR STAIRCASE\nIt provides Unique Perfection Of Slotted Handrail & Round Solid Spigot For Staircase.\nIt Provides Marvelous Look Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST04-main.jpeg",
-            "/images/main-products/CRST04-3d.jpg"
-          ]
-        },
-        {
-          "id": "CR-17",
-          "name": "CRST-05",
-          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST05-main.jpg",
-            "/images/main-products/CRST05-3d.jpg"
-          ]
-        },
-        {
-          "id": "CR-18",
-          "name": "CRST-06",
-          "description": "Model Name : CR–42\nThe Bracket is anchored with Bolts. The Bracket is in anodize, wooden and any other shade of powder-coating Finish.\nThe system is compatible with glass of 12mm thickness and 1000mm height. The bracket length is 55mm and must use 1 bracket/2.5 Feet.\nAero-dynamic design, stunning look-zero maintenance.",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST06-main.jpg",
-            "/images/main-products/CRST06-3d.jpg"
-          ]
-        },
-        {
-          "id": "CR-19",
-          "name": "CRST-07",
-          "description": "The DRA-003 Aluminum Bracket, made from premium aluminum alloy, delivers high strength, corrosion resistance, and lightweight durability for industrial and commercial uses in harsh environments.\nPrecision-engineered with pre-drilled holes for easy installation, it supports structural frameworks, electrical systems, HVAC units, and more—ideal for indoor/outdoor applications with a sleek, professional finish.",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST7-main.png",
-            "/images/main-products/CRST7-3d.webp"
-          ]
-        },
-        {
-          "id": "CR-20",
-          "name": "CRST-08",
-          "description": "Model Name : CR–41\nTOP MOUNTING FLAT BALUSTER FOR BALCONY & STAIRCASE\nThe Product Named as H & B System Which Gives Stunning Look of Premises for Balcony & Staircase.\nIt Provides Aesthetic Look of Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
-          "type": "steel",
-          "images": [
-            "/images/main-products/CRST08-main.jpg",
-            "/images/main-products/CRST08-3d.jpg"
-          ]
-        },
-        {
           "id": "CR-21",
-          "name": "CRST-09",
+          "name": "CRST-09 Glass Talon Spigot",
           "description": "Glass Railing Talon Spigots. This glass panel railing system is made up of glass panels and talon spigot clamps. Side mount spigots attach to the side of each glass panel, while surface mount spigots attach to the floor.",
           "type": "steel",
           "images": [
@@ -264,7 +184,7 @@
         },
         {
           "id": "CR-24",
-          "name": "CRST-12",
+          "name": "CRST-12 Glass to Glass",
           "description": "Modern Design 316/304 Stainless Steel Glass to Glass Accessories for Railings Handrail & Balustrades Fitting.",
           "type": "steel",
           "images": [
@@ -273,7 +193,7 @@
         },
         {
           "id": "CR-25",
-          "name": "CRST-13",
+          "name": "CRST-13 Handrail Accessories",
           "description": "Handrail Accessories Die Cast 304 316 Stainless Steel Balustrades & Handrail Bracket Fitting Railing Parts Glass Hardware.",
           "type": "steel",
           "images": [
@@ -290,82 +210,82 @@
       "products": [
         {
           "id": "CR-ST01",
-          "name": "CRST-01",
+          "name": "SS Glass Railing - 01",
           "description": "Aluminium Spigot - Aluminum Alloy, Any Color | Eco Friendly, Modern Style, Welded, Powder Coated Surface Treatment.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST01-main.jpg",
-            "/images/main-products/CRST01-3d.jpg"
+            "/images/main-products/CR-SA-01-main.webp",
+            "/images/main-products/CR-SA-01.jpg"
           ]
         },
         {
           "id": "CR-ST02",
-          "name": "CRST-02",
+          "name": "SS Glass Railing - 02",
           "description": "Model Name : CR–36\nTOP MOUNTING HOLLOW SHORT SQUARE BALUSTER WITH GLASS HOLDING SYSTEM FOR BALCONY & STAIRCASE\nThe Product Named As H & B System Which Gives Marvelous Look Of Premises For Balcony & Staircase.\nIt's elegant Look Provide The Perfect View Of The Premises.\nAvailable In Different Finishes Like Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST02-main.png",
-            "/images/main-products/CRST02-3d.jpg"
+            "/images/main-products/CR-SA-02-main.webp",
+            "/images/main-products/CR-SA-02.webp"
           ]
         },
         {
           "id": "CR-ST03",
-          "name": "CRST-03",
+          "name": "SS Glass Railing - 03",
           "description": "Model Name : CR–37\nTOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt provides Unique Combination Of Slotted Handrail & Round Solid Spigot For Balcony.\nIt is Innovative Design Provide The Glorious Face-Lift Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST3-main.png",
-            "/images/main-products/CRST3-3d.jpg"
+            "/images/main-products/CR-SA-03-main.jpg",
+            "/images/main-products/CR-SA-03.jpg"
           ]
         },
         {
           "id": "CR-ST04",
-          "name": "CRST-04",
+          "name": "SS Glass Railing - 04",
           "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR STAIRCASE\nIt provides Unique Perfection Of Slotted Handrail & Round Solid Spigot For Staircase.\nIt Provides Marvelous Look Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST04-main.jpeg",
-            "/images/main-products/CRST04-3d.jpg"
+            "/images/main-products/CR-SA-04-main.jpg",
+            "/images/main-products/CR-SA-04.jpg"
           ]
         },
         {
           "id": "CR-ST05",
-          "name": "CRST-05",
+          "name": "SS Glass Railing - 05",
           "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST05-main.jpg",
-            "/images/main-products/CRST05-3d.jpg"
+            "/images/main-products/CR-SA-05-main.jpg",
+            "/images/main-products/CR-SA-05.jpg"
           ]
         },
         {
           "id": "CR-ST06",
-          "name": "CRST-06",
+          "name": "SS Glass Railing - 06",
           "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST06-main.jpg",
-            "/images/main-products/CRST06-3d.jpg"
+            "/images/main-products/CR-SA-06-main.jpg",
+            "/images/main-products/CR-SA-06.jpg"
           ]
         },
         {
           "id": "CR-ST07",
-          "name": "CRST-07",
+          "name": "SS Glass Railing - 07",
           "description": "Model Name : CR–42\nThe Bracket is anchored with Bolts. The Bracket is in anodize, wooden and any other shade of powder-coating Finish.\nThe system is compatible with glass of 12mm thickness and 1000mm height. The bracket length is 55mm and must use 1 bracket/2.5 Feet.\nAero-dynamic design, stunning look-zero maintenance.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST7-main.png",
-            "/images/main-products/CRST7-3d.webp"
+            "/images/main-products/CR-SA-07-main.jpg",
+            "/images/main-products/CR-SA-07.jpg"
           ]
         },
         {
           "id": "CR-ST08",
-          "name": "CRST-08",
+          "name": "SS Glass Railing - 08",
           "description": "Model Name : CR–41\nTOP MOUNTING FLAT BALUSTER FOR BALCONY & STAIRCASE\nThe Product Named as H & B System Which Gives Stunning Look of Premises for Balcony & Staircase.\nIt Provides Aesthetic Look of Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
-            "/images/main-products/CRST08-main.jpg",
-            "/images/main-products/CRST08-3d.jpg"
+            "/images/main-products/CR-SA-08-main.jpg",
+            "/images/main-products/CR-SA-08.jpg"
           ]
         }
       ]
