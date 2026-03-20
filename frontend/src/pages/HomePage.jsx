@@ -2,28 +2,24 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, ArrowRight, Shield, Award, Users, Sparkles, Phone } from 'lucide-react';
 
-// ── Count-up animation component ────────────────────────────
+// ── Count-up stat ────────────────────────────────────────────
 function StatItem({ num, label, started }) {
   const [count, setCount] = useState(0);
   const isPercent = String(num).includes('%');
   const isPlus = String(num).includes('+');
   const target = parseInt(String(num).replace(/[^0-9]/g, ''));
-
   useEffect(() => {
     if (!started) return;
-    let startTime = null;
-    const duration = 2000;
-    const step = (timestamp) => {
-      if (!startTime) startTime = timestamp;
-      const progress = Math.min((timestamp - startTime) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.floor(eased * target));
-      if (progress < 1) requestAnimationFrame(step);
-      else setCount(target);
+    let st = null;
+    const dur = 2000;
+    const run = (ts) => {
+      if (!st) st = ts;
+      const prog = Math.min((ts - st) / dur, 1);
+      setCount(Math.floor((1 - Math.pow(1 - prog, 3)) * target));
+      if (prog < 1) requestAnimationFrame(run); else setCount(target);
     };
-    requestAnimationFrame(step);
+    requestAnimationFrame(run);
   }, [started, target]);
-
   return (
     <div className="text-center py-5 px-3">
       <div className="text-2xl md:text-3xl font-black" style={{ color: '#f59e0b' }}>
@@ -34,6 +30,76 @@ function StatItem({ num, label, started }) {
   );
 }
 
+// ── Category tile with auto-sliding images ───────────────────
+function CategoryTile({ cat }) {
+  const images = cat.products
+    ? [...new Set(cat.products.map(p => p.images?.[0]).filter(Boolean))].slice(0, 6)
+    : [cat.image].filter(Boolean);
+
+  const [idx, setIdx] = useState(0);
+
+  useEffect(() => {
+    if (images.length <= 1) return;
+    const t = setInterval(() => setIdx(i => (i + 1) % images.length), 2500);
+    return () => clearInterval(t);
+  }, [images.length]);
+
+  return (
+    <Link to={`/products/${cat.id}`}
+      className="group relative overflow-hidden rounded-2xl block"
+      style={{ aspectRatio: '4/3', boxShadow: '0 4px 20px rgba(0,0,0,0.08)' }}>
+
+      {/* All images stacked, fade between them */}
+      {images.map((img, i) => (
+        <img key={i} src={img} alt={cat.name}
+          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
+          style={{ opacity: i === idx ? 1 : 0, zIndex: i === idx ? 1 : 0 }}
+          onError={e => { e.target.style.display = 'none'; }} />
+      ))}
+
+      {/* Zoom on hover */}
+      <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105 z-0" />
+
+      {/* Bottom gradient for text */}
+      <div className="absolute bottom-0 left-0 right-0 z-10"
+        style={{ height: '50%', background: 'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.4) 55%, transparent 100%)' }} />
+
+      {/* Gold top border on hover */}
+      <div className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"
+        style={{ background: 'linear-gradient(90deg,#f59e0b,#fbbf24)' }} />
+
+      {/* Image counter dots */}
+      {images.length > 1 && (
+        <div className="absolute top-3 right-3 z-10 flex gap-1">
+          {images.map((_, i) => (
+            <div key={i} className="rounded-full transition-all duration-300"
+              style={{ width: i === idx ? '14px' : '5px', height: '5px', background: i === idx ? '#f59e0b' : 'rgba(255,255,255,0.5)' }} />
+          ))}
+        </div>
+      )}
+
+      {/* Product count badge */}
+      {cat.products && (
+        <div className="absolute top-3 left-3 z-10 px-2 py-0.5 rounded-full text-[10px] font-bold"
+          style={{ background: 'rgba(0,0,0,0.5)', color: 'rgba(255,255,255,0.8)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}>
+          {cat.products.length} products
+        </div>
+      )}
+
+      {/* Name + arrow */}
+      <div className="absolute bottom-0 left-0 right-0 p-4 z-10">
+        <h3 className="text-base font-black text-white group-hover:text-amber-400 transition-colors leading-tight">
+          {cat.name}
+        </h3>
+        <span className="inline-flex items-center gap-1 text-amber-400 text-xs font-bold mt-0.5 transition-all group-hover:gap-2">
+          View Products <ArrowRight className="w-3 h-3" />
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+// ── Main HomePage ────────────────────────────────────────────
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [sliderData, setSliderData] = useState([]);
@@ -44,15 +110,16 @@ const HomePage = () => {
   const featuresRef = useRef(null);
 
   useEffect(() => {
-    fetch('/data/slider.json')
-      .then(res => res.json())
-      .then(data => setSliderData(data.slides))
-      .catch(err => console.error(err));
+    fetch('/data/slider.json').then(r => r.json()).then(d => setSliderData(d.slides)).catch(console.error);
     Promise.all([
       fetch('/data/products.json').then(r => r.json()),
       fetch('/data/categories-additional.json').then(r => r.json())
-    ]).then(([p, a]) => setCategoriesData([...p.categories, ...a.categories]))
-      .catch(err => console.error(err));
+    ]).then(([p, a]) => {
+      // Merge additional category images into products categories
+      const productCats = p.categories;
+      const additionalCats = a.categories;
+      setCategoriesData([...productCats, ...additionalCats]);
+    }).catch(console.error);
   }, []);
 
   useEffect(() => {
@@ -94,7 +161,6 @@ const HomePage = () => {
             <div className="absolute left-0 top-0 bottom-0 w-1"
               style={{ background: 'linear-gradient(to bottom, transparent, #f59e0b, transparent)' }} />
 
-            {/* Content — flush bottom-left */}
             <div className="relative h-full flex flex-col justify-end z-10 px-5 md:px-14 lg:px-20 pb-16 md:pb-20">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-3 leading-tight"
                 style={{ letterSpacing: '-0.02em', maxWidth: '600px' }}>
@@ -104,9 +170,8 @@ const HomePage = () => {
                 style={{ color: 'rgba(255,255,255,0.7)', maxWidth: '480px' }}>
                 {slide.description}
               </p>
-
-              {/* Buttons — compact, all one line */}
-              <div className="flex items-center gap-2 flex-wrap">
+              {/* Compact buttons — all one line */}
+              <div className="flex items-center gap-2">
                 <Link to="/products"
                   className="group inline-flex items-center gap-1.5 rounded-xl font-bold transition-all whitespace-nowrap"
                   style={{ background: 'linear-gradient(135deg,#f59e0b,#d97706)', color: '#fff', padding: '8px 14px', fontSize: '12px', boxShadow: '0 4px 18px rgba(245,158,11,0.35)' }}>
@@ -130,7 +195,6 @@ const HomePage = () => {
           </div>
         ))}
 
-        {/* Controls */}
         <button onClick={() => setCurrentSlide(p => (p - 1 + sliderData.length) % sliderData.length)}
           className="absolute left-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full flex items-center justify-center"
           style={{ background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.18)', backdropFilter: 'blur(8px)' }}>
@@ -142,7 +206,6 @@ const HomePage = () => {
           <ChevronRight className="w-4 h-4 text-white" />
         </button>
 
-        {/* Dots */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 z-20">
           {sliderData.map((_, i) => (
             <button key={i} onClick={() => setCurrentSlide(i)} className="rounded-full transition-all duration-300"
@@ -153,7 +216,6 @@ const HomePage = () => {
           {String(currentSlide + 1).padStart(2, '0')} / {String(sliderData.length).padStart(2, '0')}
         </div>
 
-        {/* Floating logo desktop */}
         <div className="absolute right-10 md:right-16 top-1/2 -translate-y-1/2 hidden md:block z-10"
           style={{ animation: 'float 4s ease-in-out infinite' }}>
           <div className="relative">
@@ -163,16 +225,11 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* ── STATS BAR — count-up ─────────────────────────── */}
+      {/* ── STATS BAR ────────────────────────────────────── */}
       <div ref={statsRef} style={{ background: 'linear-gradient(90deg,#0f172a,#1e293b)', borderBottom: '1px solid rgba(245,158,11,0.18)' }}>
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4">
-            {[
-              { num: '500+', label: 'Projects Done' },
-              { num: '15+', label: 'Years Experience' },
-              { num: '50+', label: 'Product Variants' },
-              { num: '100%', label: 'Satisfied Clients' },
-            ].map((s, i) => (
+            {[{ num: '500+', label: 'Projects Done' }, { num: '15+', label: 'Years Experience' }, { num: '50+', label: 'Product Variants' }, { num: '100%', label: 'Satisfied Clients' }].map((s, i) => (
               <div key={i} style={{ borderRight: i < 3 ? '1px solid rgba(255,255,255,0.06)' : 'none' }}>
                 <StatItem num={s.num} label={s.label} started={statsVisible} />
               </div>
@@ -215,7 +272,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* ── CATEGORIES ───────────────────────────────────── */}
+      {/* ── CATEGORIES — with image slideshow ────────────── */}
       <section className="py-16 md:py-20" style={{ background: '#f1f5f9' }}>
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
@@ -225,6 +282,7 @@ const HomePage = () => {
               <h2 className="text-3xl md:text-4xl font-black text-slate-900" style={{ letterSpacing: '-0.02em' }}>
                 Product <span style={{ color: '#f59e0b' }}>Categories</span>
               </h2>
+              <p className="text-slate-500 mt-1 text-sm">Hover to see products inside each category</p>
             </div>
             <Link to="/categories" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm self-start md:self-auto transition-all hover:gap-3"
               style={{ background: '#0f172a', color: '#fff' }}>
@@ -232,29 +290,8 @@ const HomePage = () => {
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {categoriesData.map((cat) => (
-              <Link key={cat.id} to={`/products/${cat.id}`}
-                className="group relative overflow-hidden rounded-2xl block"
-                style={{ aspectRatio: '4/3', boxShadow: '0 4px 20px rgba(0,0,0,0.08)' }}>
-                {/* Image fills entire card */}
-                <img src={cat.image} alt={cat.name}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                {/* Thin gradient ONLY at very bottom for text readability */}
-                <div className="absolute bottom-0 left-0 right-0"
-                  style={{ height: '45%', background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)' }} />
-                {/* Gold border top on hover */}
-                <div className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  style={{ background: 'linear-gradient(90deg,#f59e0b,#fbbf24)' }} />
-                {/* Name + arrow only at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <h3 className="text-base font-black text-white mb-0.5 group-hover:text-amber-400 transition-colors leading-tight">
-                    {cat.name}
-                  </h3>
-                  <span className="inline-flex items-center gap-1 text-amber-400 text-xs font-bold transition-all group-hover:gap-2">
-                    View Products <ArrowRight className="w-3 h-3" />
-                  </span>
-                </div>
-              </Link>
+            {categoriesData.map(cat => (
+              <CategoryTile key={cat.id} cat={cat} />
             ))}
           </div>
         </div>
