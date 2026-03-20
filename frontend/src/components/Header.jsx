@@ -32,17 +32,17 @@ const Header = () => {
     <>
       {/* Top Bar */}
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 text-xs md:text-sm md:py-3 md:px-4">
-                <div className="container mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center space-x-6">
-          <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-sm">
-  <Phone className="w-5 h-5 mr-2" />
+                <div className="container mx-auto flex flex-wrap justify-between items-center text-sm gap-2">
+          <div className="flex flex-wrap items-center gap-2 md:gap-6">
+          <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-[11px] md:text-sm">
+  <Phone className="w-4 h-4 mr-1 md:mr-2" />
   <span>9000916120</span>
   <span className="mx-1">/</span>
   <span>9581901555</span>
 </a>
-<a href="mailto:crprorailing@gmail.com" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-sm">
-  <Mail className="w-5 h-5 mr-2" />
-  <span>crprorailing@gmail.com</span>
+<a href="mailto:crprorailing@gmail.com" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-[11px] md:text-sm">
+  <Mail className="w-4 h-4 mr-1 md:mr-2" />
+  <span className="hidden md:inline">crprorailing@gmail.com</span> <span className="md:hidden">Email</span>
 </a>
           </div>
           <div className="flex items-center space-x-4">
