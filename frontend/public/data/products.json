@@ -15,12 +15,11 @@
     "Anodized",
     "Powder Coating"
   ],
-  "specifications": {
-    "Top Mounted Bracket system with continues cover profile"
-"This Product can support glass height up tp full height"
-  }
-}
-
+ "specifications": [
+  "Top Mounted Bracket system with continuous cover profile",
+  "This product can support glass height up to full height"
+]
+},
   "categories": [
     {
       "id": "aluminium",
@@ -31,13 +30,14 @@
        {
   "id": "CR-01",
   "name": "CR-01 Aluminum Railing",
+          "description": "Premium quality CR-01 Aluminum Railing.",
   "type": "aluminium",
   "images": [
     "/images/main-products/CR01-main.jpeg",
     "/images/main-products/CR01-3d.jpg"
   ]
 },
-        {
+{
           "id": "CR-02",
           "name": "CR-02 Aluminum Railing",
           "type": "aluminium",
@@ -402,14 +402,13 @@
           "type": "upvc",
           "images": ["/images/main-products/CR-UPVC-04--main.jpg"]
         },
-        {
-          "id": "CR-UPVC05",
-          "name": "CR-UPVC-05",
-          "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-05--main.jpg"]
-  }
-        },
-        {
+      {
+  "id": "CR-UPVC05",
+  "name": "CR-UPVC-05",
+  "type": "upvc",
+  "images": ["/images/main-products/CR-UPVC-05--main.jpg"]
+},
+   {
           "id": "CR-UPVC06",
           "name": "CR-UPVC-06",
           "type": "upvc",
