@@ -17,31 +17,50 @@ const ProductsPage = () => {
       const allCats = data.categories;
       setAllCategories(allCats);
 
-      if (categoryId) {
+           if (categoryId) {
         const cat = allCats.find(c => c.id === categoryId);
         setSelectedCategory(cat);
-        setFilteredProducts(cat?.products || []);
+
+        const prodsWithCat = (cat?.products || []).map(p => ({
+          ...p,
+          categoryName: cat.name
+        }));
+        setFilteredProducts(prodsWithCat);
       } else {
-        const allProds = allCats.flatMap(c => c.products);
+        const allProds = allCats.flatMap(c =>
+          (c.products || []).map(p => ({
+            ...p,
+            categoryName: c.name
+          }))
+        );
         setFilteredProducts(allProds);
       }
+
     })
     .catch(err => console.error('Error loading products:', err));
 }, [categoryId]);
      
     useEffect(() => {
-    if (selectedCategory) {
-      const filtered = (selectedCategory.products || []).filter(product =>
-        product.name.toLowerCase().includes(searchTerm.toLowerCase())
-      );
+       if (selectedCategory) {
+      const filtered = (selectedCategory.products || [])
+        .map(p => ({ ...p, categoryName: selectedCategory.name }))
+        .filter(product =>
+          product.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
       setFilteredProducts(filtered);
     } else {
-      const allProds = allCategories.flatMap(c => c.products || []);
+      const allProds = allCategories.flatMap(c =>
+        (c.products || []).map(p => ({
+          ...p,
+          categoryName: c.name
+        }))
+      );
       const filtered = allProds.filter(product =>
         product.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredProducts(filtered);
     }
+
   }, [searchTerm, selectedCategory, allCategories]);
 
   return (
@@ -114,6 +133,9 @@ const ProductsPage = () => {
                   <h3 className="font-semibold text-sm text-slate-800 mb-1 line-clamp-2 group-hover:text-amber-600 transition-colors">
                     {product.name}
                   </h3>
+                  <p className="text-[11px] text-slate-500">
+  {product.categoryName}
+</p>
                   <button className="text-xs text-amber-600 font-medium mt-2 hover:underline">
                     View Details →
                   </button>
@@ -176,8 +198,8 @@ const ProductsPage = () => {
                   <div className="mb-6">
                     <h3 className="text-lg font-semibold text-slate-800 mb-3">Description</h3>
                     <p className="text-slate-600 leading-relaxed">
-                      {selectedProduct.description}
-                    </p>
+  {selectedCategory?.description || 'Premium quality product from CR PRO RAILING.'}
+</p>
                   </div>
 
                   <div className="mb-6">
