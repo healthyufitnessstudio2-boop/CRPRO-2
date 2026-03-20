@@ -39,10 +39,10 @@ const CategoriesPage = () => {
              <Link
   key={category.id}
   to={`/products/${category.id}`}
-  className="group bg-white rounded-2xl shadow-lg overflow-hidden hover-lift h-80 flex flex-col"
+  className="group bg-white rounded-2xl shadow-lg overflow-hidden hover-lift h-96 flex flex-col"
   style={{ animationDelay: `${idx * 100}ms` }}
 >
-  <div className="aspect-[4/3] overflow-hidden relative">
+  <div className="h-64 overflow-hidden relative">
     <img
       src={category.image}
       alt={category.name}
