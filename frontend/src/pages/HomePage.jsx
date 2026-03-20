@@ -157,7 +157,7 @@ const HomePage = () => {
       {/* Features Section */}
    <section className="py-16 bg-white">
   <div className="max-w-7xl mx-auto px-4 w-full">
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+              <div className="grid grid-cols-2 gap-4 px-2">
             {[
               { icon: Shield, title: 'Safety First', desc: 'ISI certified products with maximum safety standards' },
               { icon: Award, title: 'Premium Quality', desc: 'Top-grade materials with lifetime warranty' },
@@ -166,13 +166,13 @@ const HomePage = () => {
             ].map((feature, idx) => (
               <div 
                 key={idx}
-                className="text-center p-6 rounded-xl hover:bg-slate-50 transition-all hover-lift group"
+                className="text-center p-3 rounded-xl hover:bg-slate-50 transition-all group"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-amber-100 to-amber-200 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                  <feature.icon className="w-8 h-8 text-amber-600" />
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-100 to-amber-200 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <feature.icon className="w-6 h-6 text-amber-600" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-slate-800">{feature.title}</h3>
-                <p className="text-slate-600 text-sm">{feature.desc}</p>
+                <h3 className="text-sm md:text-base font-semibold mb-1 text-slate-800">{feature.title}</h3>
+                <p className="text-slate-600 text-xs leading-relaxed">{feature.desc}</p>
               </div>
             ))}
           </div>
