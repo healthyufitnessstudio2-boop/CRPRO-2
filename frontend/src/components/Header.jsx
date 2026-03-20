@@ -44,11 +44,6 @@ const Header = () => {
   <Mail className="w-5 h-5 mr-2" />
   <span>crprorailing@gmail.com</span>
 </a>
-
-            <a href="mailto:crprorailing@gmail.com" className="flex items-center hover:text-amber-400 transition-colors">
-              <Mail className="w-4 h-4 mr-2" />
-              crprorailing@gmail.com
-            </a>
           </div>
           <div className="flex items-center space-x-4">
             <span className="text-slate-300">Follow us:</span>
