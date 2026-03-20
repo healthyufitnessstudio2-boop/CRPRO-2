@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Search, Filter, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, Search, Filter, X, ChevronLeft, ChevronRight, MessageCircle, FileText, Phone } from 'lucide-react';
 
 const parseDescription = (desc) => {
   if (!desc) return { modelName: null, weight: null, length: null, profileSize: null, bullets: [] };
@@ -91,33 +91,25 @@ const ProductModal = ({ product, data, onClose }) => {
               <h2 className="text-lg font-bold text-slate-800">{product.name}</h2>
               <span className="text-xs text-slate-400">{product.categoryName} · {product.id}</span>
             </div>
-            <button onClick={onClose} className="w-8 h-8 rounded-full hover:bg-slate-100 flex items-center justify-center ml-2 flex-shrink-0">
+            <button onClick={onClose} className="w-8 h-8 rounded-full hover:bg-slate-100 flex items-center justify-center ml-2 flex-shrink-0 transition-colors">
               <X className="w-4 h-4 text-slate-500" />
             </button>
           </div>
 
-          {/* ── TOP SECTION: Images LEFT | Tabs RIGHT ── */}
+          {/* ── TOP: Images LEFT | Tabs RIGHT ── */}
           <div className="flex flex-col md:flex-row border-b border-slate-100">
-
-            {/* Images — left */}
+            {/* Images */}
             <div className="md:w-[45%] p-4 border-b md:border-b-0 md:border-r border-slate-100 flex flex-col gap-3">
-              {/* Main image */}
-              <div
-                className="rounded-xl overflow-hidden bg-slate-50 cursor-zoom-in relative group"
+              <div className="rounded-xl overflow-hidden bg-slate-50 cursor-zoom-in relative group"
                 style={{ aspectRatio: '1/1', border: '1px solid #f0f0f0' }}
-                onClick={() => setLightbox({ images, index: activeImg })}
-              >
-                <img
-                  src={images[activeImg]}
-                  alt={product.name}
+                onClick={() => setLightbox({ images, index: activeImg })}>
+                <img src={images[activeImg]} alt={product.name}
                   className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
-                  onError={e => { e.target.src = 'https://via.placeholder.com/400?text=No+Image'; }}
-                />
+                  onError={e => { e.target.src = 'https://via.placeholder.com/400?text=No+Image'; }} />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                   <span className="bg-black/50 text-white text-xs px-2 py-1 rounded-full">🔍 Zoom</span>
                 </div>
               </div>
-              {/* Thumbnails */}
               {images.length > 1 && (
                 <div className="flex gap-2 flex-wrap">
                   {images.map((img, i) => (
@@ -132,9 +124,8 @@ const ProductModal = ({ product, data, onClose }) => {
               )}
             </div>
 
-            {/* Tabs — right */}
+            {/* Tabs */}
             <div className="md:w-[55%] p-4">
-              {/* Tab buttons */}
               <div className="flex border-b border-slate-200 mb-4 gap-1">
                 {['features', 'spec', 'glass', 'finishes'].map(tab => (
                   <button key={tab} onClick={() => setActiveTab(tab)}
@@ -147,8 +138,6 @@ const ProductModal = ({ product, data, onClose }) => {
                   </button>
                 ))}
               </div>
-
-              {/* Tab content */}
               {activeTab === 'features' && (
                 <ul className="space-y-2.5">
                   {data?.commonData?.features?.map((item, i) => (
@@ -189,16 +178,17 @@ const ProductModal = ({ product, data, onClose }) => {
             </div>
           </div>
 
-          {/* ── BOTTOM SECTION: Description full width ── */}
-          <div className="p-5">
-            {(hasInfo || parsed.bullets.length > 0) ? (
+          {/* ── BOTTOM: Description + CTA ── */}
+          <div className="p-4 md:p-5">
+
+            {/* Product Info */}
+            {(hasInfo || parsed.bullets.length > 0) && (
               <div className="rounded-xl p-4 mb-4" style={{ background: '#fffbf0', border: '1px solid #fde68a' }}>
                 <div className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: '#b45309' }}>
                   Product Information
                 </div>
-                {/* Info grid: model/weight/length/size */}
                 {hasInfo && (
-                  <div className="grid grid-cols-2 gap-x-8 gap-y-3 mb-3">
+                  <div className="grid grid-cols-2 gap-x-6 gap-y-3 mb-3">
                     {parsed.modelName && (
                       <div>
                         <div className="text-[11px] text-slate-400 mb-0.5">Model Name</div>
@@ -225,7 +215,6 @@ const ProductModal = ({ product, data, onClose }) => {
                     )}
                   </div>
                 )}
-                {/* Bullet points */}
                 {parsed.bullets.length > 0 && (
                   <ul className="space-y-1.5">
                     {parsed.bullets.map((b, i) => (
@@ -237,35 +226,47 @@ const ProductModal = ({ product, data, onClose }) => {
                   </ul>
                 )}
               </div>
-            ) : (
-              /* If no parsed info, show raw description */
-              product.description && (
-                <div className="rounded-xl p-4 mb-4" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
-                  <div className="text-xs font-bold uppercase tracking-wider mb-2" style={{ color: '#64748b' }}>Description</div>
-                  <p className="text-sm text-slate-600 leading-relaxed">{product.description}</p>
-                </div>
-              )
             )}
 
-            {/* CTA Buttons */}
-            <div className="flex gap-3">
+            {/* ── CTA — professional compact bar ── */}
+            <div className="flex items-center gap-2 pt-1">
+
+              {/* WhatsApp */}
               <a
-                href={`https://wa.me/919000916120?text=${encodeURIComponent(`Hello! I'm interested in ${product.name}. Please provide more details.`)}`}
+                href={`https://wa.me/919000916120?text=${encodeURIComponent(`Hi! I'm interested in ${product.name} (${product.id}). Please share details.`)}`}
                 target="_blank" rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl font-bold text-sm text-white"
-                style={{ background: '#22c55e' }}
+                className="flex items-center gap-2 rounded-xl font-semibold text-white transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98]"
+                style={{ background: 'linear-gradient(135deg,#22c55e,#16a34a)', padding: '9px 16px', fontSize: '13px', flex: 1, justifyContent: 'center', boxShadow: '0 3px 12px rgba(34,197,94,0.3)' }}
               >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                 </svg>
-                WhatsApp Enquiry
+                <span>WhatsApp</span>
               </a>
+
+              {/* Get Quote */}
               <Link to="/contact"
-                className="flex-1 flex items-center justify-center py-3 rounded-xl font-bold text-sm text-white"
-                style={{ background: '#f59e0b' }}>
-                Get Free Quote
+                className="flex items-center gap-2 rounded-xl font-semibold text-white transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98]"
+                style={{ background: 'linear-gradient(135deg,#f59e0b,#d97706)', padding: '9px 16px', fontSize: '13px', flex: 1, justifyContent: 'center', boxShadow: '0 3px 12px rgba(245,158,11,0.3)' }}
+              >
+                <FileText className="w-4 h-4 flex-shrink-0" />
+                <span>Get Quote</span>
               </Link>
+
+              {/* Call button — icon only */}
+              <a href="tel:9000916120"
+                className="flex items-center justify-center rounded-xl transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
+                style={{ background: '#0f172a', padding: '9px 13px', boxShadow: '0 3px 12px rgba(0,0,0,0.15)' }}
+                title="Call: 9000916120"
+              >
+                <Phone className="w-4 h-4 text-amber-400" />
+              </a>
             </div>
+
+            {/* Sub text */}
+            <p className="text-center text-[10px] text-slate-400 mt-2">
+              📞 9000916120 &nbsp;|&nbsp; 9581901555 &nbsp;·&nbsp; Free consultation available
+            </p>
           </div>
         </div>
       </div>
@@ -343,7 +344,7 @@ const ProductsPage = () => {
       <section className="py-10">
         <div className="w-full px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-4">
-            {filteredProducts.map((product, idx) => (
+            {filteredProducts.map((product) => (
               <div key={product.id} onClick={() => setSelectedProduct(product)}
                 className="bg-white rounded-xl shadow-md overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow">
                 <div className="aspect-square overflow-hidden bg-slate-100">
@@ -366,11 +367,7 @@ const ProductsPage = () => {
       </section>
 
       {selectedProduct && (
-        <ProductModal
-          product={selectedProduct}
-          data={data}
-          onClose={() => setSelectedProduct(null)}
-        />
+        <ProductModal product={selectedProduct} data={data} onClose={() => setSelectedProduct(null)} />
       )}
     </div>
   );
