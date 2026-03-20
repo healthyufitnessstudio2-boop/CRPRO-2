@@ -155,9 +155,9 @@ const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-white">
-        max-w-7xl mx-auto px-4 w-full
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+   <section className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-4 w-full">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
               { icon: Shield, title: 'Safety First', desc: 'ISI certified products with maximum safety standards' },
               { icon: Award, title: 'Premium Quality', desc: 'Top-grade materials with lifetime warranty' },
