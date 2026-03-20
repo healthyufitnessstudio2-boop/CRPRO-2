@@ -66,8 +66,8 @@ const ProductsPage = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12">
-        <div className="container mx-auto px-4">
+     <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12 w-full">
+  <div className="w-full px-4">
           {categoryId && (
             <Link
               to="/categories"
@@ -87,9 +87,9 @@ const ProductsPage = () => {
       </section>
 
       {/* Search & Filter */}
-      <section className="bg-white shadow-sm py-6 sticky top-0 z-10">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row gap-4 items-center">
+      <section className="bg-white shadow-sm py-6 sticky top-0 z-10 w-full">
+  <div className="w-full px-4">
+             <div className="flex flex-col md:flex-row gap-4 items-center">
             <div className="relative flex-1 w-full">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
               <input
@@ -111,7 +111,7 @@ const ProductsPage = () => {
       {/* Products Grid */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-4">
             {filteredProducts.map((product, idx) => (
               <div
                 key={product.id}
