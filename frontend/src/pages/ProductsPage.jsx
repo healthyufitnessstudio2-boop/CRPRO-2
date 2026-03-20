@@ -152,6 +152,7 @@ const ProductsPage = () => {
             
             <div className="p-6">
               <div className="grid md:grid-cols-2 gap-8">
+                <div>
                 {/* Product Image */}
                <div className="grid grid-cols-2 gap-4">
   {selectedProduct.images?.slice(0, 2).map((img, i) => (
@@ -167,13 +168,8 @@ const ProductsPage = () => {
     </div>
   ))}
 </div>
-                    alt={selectedProduct.name}
-                    className="w-full h-full object-contain p-4"
-                    onError={(e) => {
-                      e.target.src = 'https://via.placeholder.com/600x600?text=CR+PRO+RAILING';
-                    }}
-                  />
-                </div>
+</div>
+                   
 
                 {/* Product Details */}
                 <div>
