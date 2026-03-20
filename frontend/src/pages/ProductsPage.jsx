@@ -184,43 +184,27 @@ const ProductModal = ({ product, data, onClose }) => {
 
             {/* Product Info Box */}
             {(hasInfo || parsed.bullets.length > 0) && (
-              <div className="rounded-xl p-4 mb-4" style={{ background: '#fffbf0', border: '1px solid #fde68a' }}>
-                <div className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: '#b45309' }}>
+              <div className="rounded-xl mb-4" style={{ background: '#fffbf0', border: '1px solid #fde68a', padding: '10px 12px' }}>
+                <div style={{ fontSize: '10px', fontWeight: 700, color: '#b45309', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '8px' }}>
                   Product Information
                 </div>
                 {hasInfo && (
-                  <div className="grid grid-cols-2 gap-x-6 gap-y-3 mb-3">
-                    {parsed.modelName && (
-                      <div>
-                        <div className="text-[11px] text-slate-400 mb-0.5">Model Name</div>
-                        <div className="text-sm font-bold text-slate-800">{parsed.modelName}</div>
-                      </div>
-                    )}
-                    {parsed.weight && (
-                      <div>
-                        <div className="text-[11px] text-slate-400 mb-0.5">Weight</div>
-                        <div className="text-sm font-bold text-slate-800">{parsed.weight}</div>
-                      </div>
-                    )}
-                    {parsed.length && (
-                      <div>
-                        <div className="text-[11px] text-slate-400 mb-0.5">Length</div>
-                        <div className="text-sm font-bold text-slate-800">{parsed.length}</div>
-                      </div>
-                    )}
-                    {parsed.profileSize && (
-                      <div>
-                        <div className="text-[11px] text-slate-400 mb-0.5">Profile Size</div>
-                        <div className="text-sm font-bold text-slate-800">{parsed.profileSize}</div>
-                      </div>
-                    )}
-                  </div>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: parsed.bullets.length > 0 ? '8px' : 0 }}>
+                    <tbody>
+                      {[['Model Name', parsed.modelName], ['Weight', parsed.weight], ['Length', parsed.length], ['Profile Size', parsed.profileSize]].filter(([, v]) => v).map(([label, value]) => (
+                        <tr key={label} style={{ borderBottom: '1px solid #fde68a' }}>
+                          <td style={{ padding: '3px 6px 3px 0', fontSize: '11px', color: '#94a3b8', whiteSpace: 'nowrap', width: '40%' }}>{label}</td>
+                          <td style={{ padding: '3px 0', fontSize: '12px', fontWeight: 700, color: '#1e293b' }}>: {value}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 )}
                 {parsed.bullets.length > 0 && (
-                  <ul className="space-y-1.5">
+                  <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
                     {parsed.bullets.map((b, i) => (
-                      <li key={i} className="flex items-start gap-2 text-slate-600 text-sm leading-relaxed">
-                        <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 mt-1.5" style={{ background: '#f59e0b' }} />
+                      <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '6px', fontSize: '11px', color: '#475569', lineHeight: '1.4', padding: '2px 0' }}>
+                        <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: '#f59e0b', flexShrink: 0, marginTop: '4px' }} />
                         {b}
                       </li>
                     ))}
