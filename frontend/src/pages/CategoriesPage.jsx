@@ -36,34 +36,37 @@ const CategoriesPage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {categoriesData.map((category, idx) => (
-              <Link
-                key={category.id}
-                to={`/products/${category.id}`}
-                className="group bg-white rounded-2xl shadow-lg overflow-hidden hover-lift"
-                style={{ animationDelay: `${idx * 100}ms` }}
-              >
-                <div className="aspect-[4/3] overflow-hidden relative">
-                  <img
-                    src={category.image}
-                    alt={category.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                    {category.products.length} Products
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-800 mb-2 group-hover:text-amber-600 transition-colors">
-                    {category.name}
-                  </h3>
-                  <p className="text-slate-600 text-sm mb-4 line-clamp-2">
-                    {category.description}
-                  </p>
-                  <span className="inline-flex items-center text-amber-600 font-semibold group-hover:translate-x-2 transition-transform">
-                    View Products <ArrowRight className="w-4 h-4 ml-2" />
-                  </span>
-                </div>
-              </Link>
+             <Link
+  key={category.id}
+  to={`/products/${category.id}`}
+  className="group bg-white rounded-2xl shadow-lg overflow-hidden hover-lift h-80 flex flex-col"
+  style={{ animationDelay: `${idx * 100}ms` }}
+>
+  <div className="aspect-[4/3] overflow-hidden relative">
+    <img
+      src={category.image}
+      alt={category.name}
+      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+    />
+    <div className="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+      {category.products.length} Products
+    </div>
+  </div>
+
+  <div className="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <h3 className="text-xl font-bold text-slate-800 mb-2 group-hover:text-amber-600 transition-colors">
+        {category.name}
+      </h3>
+      <p className="text-slate-600 text-sm mb-4 line-clamp-2">
+        {category.description}
+      </p>
+    </div>
+    <span className="inline-flex items-center text-amber-600 font-semibold group-hover:translate-x-2 transition-transform">
+      View Products <ArrowRight className="w-4 h-4 ml-2" />
+    </span>
+  </div>
+</Link>
             ))}
           </div>
         </div>
