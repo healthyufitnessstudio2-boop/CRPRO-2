@@ -238,11 +238,15 @@ const ProductsPage = () => {
   </div>
 )}
                 {activeTab === 'spec' && (
-  <div className="mb-6 text-sm text-slate-600 space-y-1">
-    <p><b>Model:</b> {selectedProduct?.specifications?.model || 'N/A'}</p>
-    <p><b>Weight:</b> {selectedProduct?.specifications?.weight || 'N/A'}</p>
-    <p><b>Length:</b> {selectedProduct?.specifications?.length || 'N/A'}</p>
-    <p><b>Profile:</b> {selectedProduct?.specifications?.profile || 'N/A'}</p>
+  <div className="mb-6">
+    <ul className="space-y-2">
+      {data?.commonData?.specifications?.map((item, i) => (
+        <li key={i} className="flex items-center text-slate-600 text-sm">
+          <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
+          {item}
+        </li>
+      ))}
+    </ul>
   </div>
 )}
                 {activeTab === 'glass' && (
