@@ -10,48 +10,33 @@ const ProductsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  useEffect(() => {
-    Promise.all([
-      fetch('/data/products.json').then(res => res.json()),
-      fetch('/data/products.json')
-  .then(res => res.json())
-  .then(data => {
-    setAllCategories(data.categories);
+ useEffect(() => {
+  fetch('/data/products.json')
+    .then(res => res.json())
+    .then(data => {
+      const allCats = data.categories;
+      setAllCategories(allCats);
 
-    if (categoryId) {
-      const cat = data.categories.find(c => c.id === categoryId);
-      setSelectedCategory(cat);
-      setFilteredProducts(cat?.products || []);
-    } else {
-      const allProds = data.categories.flatMap(c => c.products);
-      setFilteredProducts(allProds);
-    }
-  });
-    ])
-      .then(([products, additional]) => {
-        const allCats = [...products.categories, ...additional.categories];
-        setAllCategories(allCats);
-        
-        if (categoryId) {
-          const cat = allCats.find(c => c.id === categoryId);
-          setSelectedCategory(cat);
-          setFilteredProducts(cat?.products || []);
-        } else {
-          const allProds = allCats.flatMap(c => c.products);
-          setFilteredProducts(allProds);
-        }
-      })
-      .catch(err => console.error('Error loading products:', err));
-  }, [categoryId]);
-
-  useEffect(() => {
+      if (categoryId) {
+        const cat = allCats.find(c => c.id === categoryId);
+        setSelectedCategory(cat);
+        setFilteredProducts(cat?.products || []);
+      } else {
+        const allProds = allCats.flatMap(c => c.products);
+        setFilteredProducts(allProds);
+      }
+    })
+    .catch(err => console.error('Error loading products:', err));
+}, [categoryId]);
+     
+    useEffect(() => {
     if (selectedCategory) {
-      const filtered = selectedCategory.products.filter(product =>
+      const filtered = (selectedCategory.products || []).filter(product =>
         product.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredProducts(filtered);
     } else {
-      const allProds = allCategories.flatMap(c => c.products);
+      const allProds = allCategories.flatMap(c => c.products || []);
       const filtered = allProds.filter(product =>
         product.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
