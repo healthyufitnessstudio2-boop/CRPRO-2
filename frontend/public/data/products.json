@@ -210,82 +210,82 @@
       "products": [
         {
           "id": "CR-ST01",
-          "name": "SS Glass Railing - 01",
-          "description": "Aluminium Spigot - Aluminum Alloy, Any Color | Eco Friendly, Modern Style, Welded, Powder Coated Surface Treatment.",
+          "name": "CRST-01",
           "type": "ss-steel-glass",
+          "description": "Aluminium Spigot - Aluminum Alloy, Any Color | Eco Friendly, Modern Style, Welded, Powder Coated Surface Treatment.",
           "images": [
-            "/images/main-products/CR-SA-01-main.webp",
-            "/images/main-products/CR-SA-01.jpg"
+            "/images/main-products/CRST01-main.jpg",
+            "/images/main-products/CRST01-3d.jpg"
           ]
         },
         {
           "id": "CR-ST02",
-          "name": "SS Glass Railing - 02",
-          "description": "Model Name : CR–36\nTOP MOUNTING HOLLOW SHORT SQUARE BALUSTER WITH GLASS HOLDING SYSTEM FOR BALCONY & STAIRCASE\nThe Product Named As H & B System Which Gives Marvelous Look Of Premises For Balcony & Staircase.\nIt's elegant Look Provide The Perfect View Of The Premises.\nAvailable In Different Finishes Like Gold, Black & S.S. Matt.",
+          "name": "CRST-02",
           "type": "ss-steel-glass",
+          "description": "Model Name : CR–36\nTOP MOUNTING HOLLOW SHORT SQUARE BALUSTER WITH GLASS HOLDING SYSTEM FOR BALCONY & STAIRCASE\nThe Product Named As H & B System Which Gives Marvelous Look Of Premises For Balcony & Staircase.\nAvailable In Different Finishes Like Gold, Black & S.S. Matt.",
           "images": [
-            "/images/main-products/CR-SA-02-main.webp",
-            "/images/main-products/CR-SA-02.webp"
+            "/images/main-products/CRST02-main.png",
+            "/images/main-products/CRST02-3d.jpg"
           ]
         },
         {
           "id": "CR-ST03",
-          "name": "SS Glass Railing - 03",
-          "description": "Model Name : CR–37\nTOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt provides Unique Combination Of Slotted Handrail & Round Solid Spigot For Balcony.\nIt is Innovative Design Provide The Glorious Face-Lift Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt",
+          "name": "CRST-03",
           "type": "ss-steel-glass",
+          "description": "Model Name : CR–37\nTOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt provides Unique Combination Of Slotted Handrail & Round Solid Spigot For Balcony.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt",
           "images": [
-            "/images/main-products/CR-SA-03-main.jpg",
-            "/images/main-products/CR-SA-03.jpg"
+            "/images/main-products/CRST3-main.png",
+            "/images/main-products/CRST3-3d.jpg"
           ]
         },
         {
           "id": "CR-ST04",
-          "name": "SS Glass Railing - 04",
-          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR STAIRCASE\nIt provides Unique Perfection Of Slotted Handrail & Round Solid Spigot For Staircase.\nIt Provides Marvelous Look Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
+          "name": "CRST-04",
           "type": "ss-steel-glass",
+          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR STAIRCASE\nIt provides Unique Perfection Of Slotted Handrail & Round Solid Spigot For Staircase.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "images": [
-            "/images/main-products/CR-SA-04-main.jpg",
-            "/images/main-products/CR-SA-04.jpg"
+            "/images/main-products/CRST04-main.jpeg",
+            "/images/main-products/CRST04-3d.jpg"
           ]
         },
         {
           "id": "CR-ST05",
-          "name": "SS Glass Railing - 05",
-          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
+          "name": "CRST-05",
           "type": "ss-steel-glass",
+          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "images": [
-            "/images/main-products/CR-SA-05-main.jpg",
-            "/images/main-products/CR-SA-05.jpg"
+            "/images/main-products/CRST05-main.jpg",
+            "/images/main-products/CRST05-3d.jpg"
           ]
         },
         {
           "id": "CR-ST06",
-          "name": "SS Glass Railing - 06",
-          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
+          "name": "CRST-06",
           "type": "ss-steel-glass",
+          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "images": [
-            "/images/main-products/CR-SA-06-main.jpg",
-            "/images/main-products/CR-SA-06.jpg"
+            "/images/main-products/CRST06-main.jpg",
+            "/images/main-products/CRST06-3d.jpg"
           ]
         },
         {
           "id": "CR-ST07",
-          "name": "SS Glass Railing - 07",
-          "description": "Model Name : CR–42\nThe Bracket is anchored with Bolts. The Bracket is in anodize, wooden and any other shade of powder-coating Finish.\nThe system is compatible with glass of 12mm thickness and 1000mm height. The bracket length is 55mm and must use 1 bracket/2.5 Feet.\nAero-dynamic design, stunning look-zero maintenance.",
+          "name": "CRST-07",
           "type": "ss-steel-glass",
+          "description": "Model Name : CR–42\nThe Bracket is anchored with Bolts. The Bracket is in anodize, wooden and any other shade of powder-coating Finish.\nThe system is compatible with glass of 12mm thickness and 1000mm height.",
           "images": [
-            "/images/main-products/CR-SA-07-main.jpg",
-            "/images/main-products/CR-SA-07.jpg"
+            "/images/main-products/CRST7-main.png",
+            "/images/main-products/CRST7-3d.webp"
           ]
         },
         {
           "id": "CR-ST08",
-          "name": "SS Glass Railing - 08",
-          "description": "Model Name : CR–41\nTOP MOUNTING FLAT BALUSTER FOR BALCONY & STAIRCASE\nThe Product Named as H & B System Which Gives Stunning Look of Premises for Balcony & Staircase.\nIt Provides Aesthetic Look of Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
+          "name": "CRST-08",
           "type": "ss-steel-glass",
+          "description": "Model Name : CR–41\nTOP MOUNTING FLAT BALUSTER FOR BALCONY & STAIRCASE\nThe Product Named as H & B System Which Gives Stunning Look of Premises for Balcony & Staircase.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "images": [
-            "/images/main-products/CR-SA-08-main.jpg",
-            "/images/main-products/CR-SA-08.jpg"
+            "/images/main-products/CRST08-main.jpg",
+            "/images/main-products/CRST08-3d.jpg"
           ]
         }
       ]
