@@ -34,20 +34,37 @@ const Header = () => {
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-2 px-2 text-[10px] md:text-sm md:py-3 md:px-4">
                 <div className="container mx-auto flex items-center justify-between text-[10px] md:text-sm">
           <div className="flex items-center gap-2 flex-1">
-          <a href="tel:9000916120" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-[11px] md:text-sm">
-  <Phone className="w-4 h-4 mr-1 md:mr-2" />
-  <span>9000916120</span>
-  <span className="mx-1">/</span>
-  <span>9581901555</span>
-</a>
-<a href="mailto:crprorailing@gmail.com" className="flex items-center hover:text-amber-400 transition-colors font-semibold text-[11px] md:text-sm">
-  <Mail className="w-4 h-4 mr-1 md:mr-2" />
-  <span className="hidden md:inline">crprorailing@gmail.com</span> <span className="md:hidden">Email</span>
-</a>
+         <div className="flex items-center gap-2 font-semibold text-[11px] md:text-sm">
+  
+ <div className="flex items-center gap-2 px-4 py-2">
+
+  <a href="tel:9000916120" className="flex items-center gap-1 text-white hover:text-amber-400">
+    <Phone className="w-4 h-4" />
+    9000916120
+  </a>
+
+  <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.52 3.48A11.92..." />
+    </svg>
+  </a>
+
+</div>
+
+  <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4 text-green-500 hover:scale-110 transition">
+      <path d="M20.52 3.48A11.92 11.92 0 0012.06 0C5.4 0 .04 5.36.04 12.02..." />
+    </svg>
+  </a>
+
+</div>
+
           </div>
-          <div className="flex items-center space-x-2 ml-2">
-            <span className="text-slate-300">Follow us:</span>
-            <a 
+          <div className="flex items-center gap-3 ml-2">
+            <a href="mailto:crprorailing@gmail.com" className="hover:text-amber-400">
+  <Mail className="w-4 h-4" />
+</a>
+                      <a 
               href="https://www.facebook.com/share/1ApX5UYCHB/" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -80,13 +97,13 @@ const Header = () => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
            {/* Logo + Text */}
-<Link to="/" className="flex items-center space-x-2 group">
+<Link to="/" className="flex items-center space-x-3 group">
   <img 
     src="/logo.png"
     alt="CR PRO RAILING" 
-    className="h-8 md:h-14 w-auto transition-transform group-hover:scale-105"
+    className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
   />
-  <span className="text-white font-bold text-xs md:text-lg whitespace-nowrap">
+  <span className="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent font-extrabold text-sm md:text-2xl tracking-wide whitespace-nowrap">
     CR PRO RAILING
   </span>
 </Link>
@@ -139,11 +156,19 @@ const Header = () => {
                   </Link>
                 ))}
                 <div className="pt-4 border-t border-slate-700">
-                  <a href="tel:9000916120" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
-                    <Phone className="w-4 h-4 mr-2" />
-                    9000916120
-                  </a>
-                <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
+                 <a href="tel:9000916120" className="flex items-center gap-1 font-semibold text-[11px] md:text-sm">
+  <Phone className="w-4 h-4" />
+  
+  <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
+    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.52 3.48A11.92 11.92 0 0012.06 0C5.4 0 .04 5.36.04 12.02c0 2.12.55 4.2 1.6 6.04L0 24l6.11-1.6a11.96 11.96 0 005.95 1.52h.01c6.66 0 12.02-5.36 12.02-12.02 0-3.21-1.25-6.23-3.57-8.52zM12.07 21.7h-.01a9.9 9.9 0 01-5.05-1.38l-.36-.21-3.63.95.97-3.54-.23-.37a9.86 9.86 0 01-1.52-5.26c0-5.46 4.44-9.9 9.91-9.9 2.64 0 5.13 1.03 7 2.9a9.83 9.83 0 012.9 7c0 5.47-4.44 9.91-9.9 9.91zm5.44-7.39c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.69.15-.2.3-.79.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.89-.8-1.5-1.78-1.68-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.69-1.66-.95-2.27-.25-.6-.5-.52-.69-.53l-.59-.01c-.2 0-.52.07-.8.37-.28.3-1.06 1.03-1.06 2.5 0 1.47 1.09 2.89 1.24 3.09.15.2 2.14 3.27 5.19 4.58.72.31 1.28.5 1.72.64.72.23 1.37.2 1.88.12.57-.09 1.78-.73 2.03-1.44.25-.71.25-1.32.17-1.44-.08-.12-.28-.2-.59-.35z"/>
+    </svg>
+  </a>
+
+  <span>9000916120</span>
+</a>
+                
+  <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
   <Mail className="w-4 h-4 mr-2" />
   crprorailing@gmail.com
 </a>
