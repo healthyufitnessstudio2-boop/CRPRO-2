@@ -1,25 +1,25 @@
 {
- "commonData": {
-  "features": [
-    "Premium Quality Material",
-    "Weather Resistant",
-    "Easy Installation",
-    "Low Maintenance"
-  ],
-  "glass": [
-    "12 mm Toughened Glass",
-    "25 mm Laminated Glass"
-  ],
-  "finishes": [
-    "Wooden",
-    "Anodized",
-    "Powder Coating"
-  ],
- "specifications": [
-  "Top Mounted Bracket system with continuous cover profile",
-  "This product can support glass height up to full height"
-]
-},
+  "commonData": {
+    "features": [
+      "Premium Quality Material",
+      "Weather Resistant",
+      "Easy Installation",
+      "Low Maintenance"
+    ],
+    "glass": [
+      "12 mm Toughened Glass",
+      "25 mm Laminated Glass"
+    ],
+    "finishes": [
+      "Wooden",
+      "Anodized",
+      "Powder Coating"
+    ],
+    "specifications": [
+      "Top Mounted Bracket system with continuous cover profile",
+      "This product can support glass height up to full height"
+    ]
+  },
   "categories": [
     {
       "id": "aluminium",
@@ -27,19 +27,20 @@
       "description": "CR-AL series premium aluminium railing systems.",
       "image": "/images/main-products/CR-AL01-main.jpeg",
       "products": [
-       {
-  "id": "CR-01",
-  "name": "CR-01 Aluminum Railing",
-          "description": "Premium quality CR-01 Aluminum Railing.",
-  "type": "aluminium",
-  "images": [
-    "/images/main-products/CR01-main.jpeg",
-    "/images/main-products/CR01-3d.jpg"
-  ]
-},
-{
+        {
+          "id": "CR-01",
+          "name": "CR-01 Aluminum Railing",
+          "description": "Model Name : RW–01\nWeight : 0.700 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 55 mm X 70 mm",
+          "type": "aluminium",
+          "images": [
+            "/images/main-products/CR01-main.jpeg",
+            "/images/main-products/CR01-3d.jpg"
+          ]
+        },
+        {
           "id": "CR-02",
           "name": "CR-02 Aluminum Railing",
+          "description": "Model Name : RW–02\nWeight : 0.850 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 71 mm X 81 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR02-main.jpeg",
@@ -49,16 +50,17 @@
         {
           "id": "CR-03",
           "name": "CR-03 Aluminum Railing",
+          "description": "Model Name : RW–03\nWeight : 0.600 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 66 mm X 70 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR03-main.jpeg",
             "/images/main-products/CR03-3d.jpg"
           ]
-          
         },
         {
           "id": "CR-04",
           "name": "CR-04 Aluminum Railing",
+          "description": "Model Name : RW–04\nWeight : 0.500 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 45 mm X 60 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR04-main.jpeg",
@@ -68,6 +70,7 @@
         {
           "id": "CR-05",
           "name": "CR-05 Aluminum Railing",
+          "description": "Model Name : RW–05\nWeight : 0.950 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 37 mm X 81 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR05-main.jpeg",
@@ -77,6 +80,7 @@
         {
           "id": "CR-06",
           "name": "CR-06 Aluminum Railing",
+          "description": "Model Name : RW–06\nWeight : 1.100 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 40 mm X 100 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR06-main.jpeg",
@@ -86,6 +90,7 @@
         {
           "id": "CR-07",
           "name": "CR-07 Aluminum Railing",
+          "description": "Model Name : RW–07\nWeight : 1.500 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 41 mm X 115 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR07-main.jpeg",
@@ -95,6 +100,7 @@
         {
           "id": "CR-08",
           "name": "CR-08 Aluminum Railing",
+          "description": "Model Name : RW–08\nWeight : 1.100 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 60 mm X 100 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR08-main.jpeg",
@@ -104,6 +110,7 @@
         {
           "id": "CR-09",
           "name": "CR-09 Aluminum Railing",
+          "description": "Model Name : RW–09\nWeight : 1.500 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 60 mm X 120 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR09-main.png",
@@ -113,6 +120,7 @@
         {
           "id": "CR-10",
           "name": "CR-10 Aluminum Railing",
+          "description": "Model Name : RW–10\nWeight : 0.950 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 50 mm X 90 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR10-main.png",
@@ -122,6 +130,7 @@
         {
           "id": "CR-11",
           "name": "CR-11 Aluminum Railing",
+          "description": "Model Name : RW–19\nWeight : 750 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 57 mm X 71 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR11-main.png",
@@ -131,6 +140,7 @@
         {
           "id": "CR-12",
           "name": "CR-12 Aluminum Railing",
+          "description": "Model Name : RW–35\nWeight : 160 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 40 mm X 200 mm",
           "type": "aluminium",
           "images": [
             "/images/main-products/CR12-main.png",
@@ -139,16 +149,16 @@
         }
       ]
     },
-
     {
       "id": "steel",
       "name": "Steel & Accessories",
-      "description": "CR-SA series steel accessories.",
+      "description": "CRST series steel railing accessories and systems.",
       "image": "/images/main-products/CR-SA-01-main.webp",
       "products": [
         {
           "id": "CR-13",
           "name": "CRST-01",
+          "description": "Model Name : RW–35\nWeight : 160 gm (1 Feet)\nLength : 13 ft / 16 ft\nProfile Size : 40 mm X 200 mm",
           "type": "steel",
           "images": [
             "/images/main-products/CRST01-main.jpg",
@@ -158,6 +168,7 @@
         {
           "id": "CR-14",
           "name": "CRST-02",
+          "description": "Model Name : RW–36\nTOP MOUNTING HOLLOW SHORT SQUARE BALUSTER WITH GLASS HOLDING SYSTEM FOR BALCONY & STAIRCASE\nThe Product Named As H & B System Which Gives Marvelous Look Of Premises For Balcony & Staircase.\nIt's elegant Look Provide The Perfect View Of The Premises.\nAvailable In Different Finishes Like Gold, Black & S.S. Matt.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST02-main.png",
@@ -167,6 +178,7 @@
         {
           "id": "CR-15",
           "name": "CRST-03",
+          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt provides Unique Combination Of Slotted Handrail & Round Solid Spigot For Balcony.\nIt is Innovative Design Provide The Glorious Face-Lift Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt",
           "type": "steel",
           "images": [
             "/images/main-products/CRST3-main.png",
@@ -176,6 +188,7 @@
         {
           "id": "CR-16",
           "name": "CRST-04",
+          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR STAIRCASE\nIt provides Unique Perfection Of Slotted Handrail & Round Solid Spigot For Staircase.\nIt Provides Marvelous Look Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST04-main.jpeg",
@@ -185,6 +198,7 @@
         {
           "id": "CR-17",
           "name": "CRST-05",
+          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST05-main.jpg",
@@ -194,6 +208,7 @@
         {
           "id": "CR-18",
           "name": "CRST-06",
+          "description": "Model Name : RW–42\nThe Bracket is anchored with Bolts. The Bracket is in anodize, wooden and any other shade of powder-coating Finish.\nThe system is compatible with glass of 12mm thickness and 1000mm height. The bracket length is 55mm and must use 1 bracket/2.5 Feet.\nAero-dynamic design, stunning look-zero maintenance.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST06-main.jpg",
@@ -203,6 +218,7 @@
         {
           "id": "CR-19",
           "name": "CRST-07",
+          "description": "The DRA-003 Aluminum Bracket, made from premium aluminum alloy, delivers high strength, corrosion resistance, and lightweight durability for industrial and commercial uses in harsh environments.\nPrecision-engineered with pre-drilled holes for easy installation, it supports structural frameworks, electrical systems, HVAC units, and more—ideal for indoor/outdoor applications with a sleek, professional finish.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST7-main.png",
@@ -212,6 +228,7 @@
         {
           "id": "CR-20",
           "name": "CRST-08",
+          "description": "Model Name : RW–41\nTOP MOUNTING FLAT BALUSTER FOR BALCONY & STAIRCASE\nThe Product Named as H & B System Which Gives Stunning Look of Premises for Balcony & Staircase.\nIt Provides Aesthetic Look of Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST08-main.jpg",
@@ -221,6 +238,7 @@
         {
           "id": "CR-21",
           "name": "CRST-09",
+          "description": "Glass Railing Talon Spigots. This glass panel railing system is made up of glass panels and talon spigot clamps. Side mount spigots attach to the side of each glass panel, while surface mount spigots attach to the floor.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST-09-main.jpg"
@@ -228,7 +246,8 @@
         },
         {
           "id": "CR-22",
-          "name": "CRST-10",
+          "name": "Side Mounting Stud",
+          "description": "TRA 61R and 61S is a side mounting stud balustrade used in staircases, balconies and terraces. It is the newest and safest system in railing with a touch of elegance and simplicity to your rich interiors.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST10-main.jpg"
@@ -236,7 +255,8 @@
         },
         {
           "id": "CR-23",
-          "name": "CRST-11",
+          "name": "Glass Handrail Bracket",
+          "description": "Stainless Steel Glass Handrail Bracket made from Rod bending process for simple and elegant Glass Handrail.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST11-main.jpg"
@@ -245,6 +265,7 @@
         {
           "id": "CR-24",
           "name": "CRST-12",
+          "description": "Modern Design 316/304 Stainless Steel Glass to Glass Accessories for Railings Handrail & Balustrades Fitting.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST12-main.jpg"
@@ -253,6 +274,7 @@
         {
           "id": "CR-25",
           "name": "CRST-13",
+          "description": "Handrail Accessories Die Cast 304 316 Stainless Steel Balustrades & Handrail Bracket Fitting Railing Parts Glass Hardware.",
           "type": "steel",
           "images": [
             "/images/main-products/CRST13-main.jpg"
@@ -260,7 +282,6 @@
         }
       ]
     },
-
     {
       "id": "ss-steel-glass",
       "name": "SS Steel & Glass Railing",
@@ -270,6 +291,7 @@
         {
           "id": "CR-ST01",
           "name": "CRST-01",
+          "description": "Aluminium Spigot - Aluminum Alloy, Any Color | Eco Friendly, Modern Style, Welded, Powder Coated Surface Treatment.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST01-main.jpg",
@@ -279,6 +301,7 @@
         {
           "id": "CR-ST02",
           "name": "CRST-02",
+          "description": "Model Name : RW–36\nTOP MOUNTING HOLLOW SHORT SQUARE BALUSTER WITH GLASS HOLDING SYSTEM FOR BALCONY & STAIRCASE\nThe Product Named As H & B System Which Gives Marvelous Look Of Premises For Balcony & Staircase.\nIt's elegant Look Provide The Perfect View Of The Premises.\nAvailable In Different Finishes Like Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST02-main.png",
@@ -288,6 +311,7 @@
         {
           "id": "CR-ST03",
           "name": "CRST-03",
+          "description": "Model Name : RW–37\nTOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt provides Unique Combination Of Slotted Handrail & Round Solid Spigot For Balcony.\nIt is Innovative Design Provide The Glorious Face-Lift Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST3-main.png",
@@ -297,6 +321,7 @@
         {
           "id": "CR-ST04",
           "name": "CRST-04",
+          "description": "TOP MOUNTING SOLID ROUND SPIGOT WITH GLASS HOLDING SYSTEM FOR STAIRCASE\nIt provides Unique Perfection Of Slotted Handrail & Round Solid Spigot For Staircase.\nIt Provides Marvelous Look Of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST04-main.jpeg",
@@ -306,6 +331,7 @@
         {
           "id": "CR-ST05",
           "name": "CRST-05",
+          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST05-main.jpg",
@@ -315,6 +341,7 @@
         {
           "id": "CR-ST06",
           "name": "CRST-06",
+          "description": "TOP MOUNTING SOLID RECTANGLE SPIGOT WITH GLASS HOLDING SYSTEM FOR BALCONY\nIt Provides Perfect Combination of Slotted Handrail & Rectangle Solid Spigot for Balcony.\nIt is Innovative Design Provides the Glorious Face-Lift of The Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST06-main.jpg",
@@ -324,6 +351,7 @@
         {
           "id": "CR-ST07",
           "name": "CRST-07",
+          "description": "Model Name : RW–42\nThe Bracket is anchored with Bolts. The Bracket is in anodize, wooden and any other shade of powder-coating Finish.\nThe system is compatible with glass of 12mm thickness and 1000mm height. The bracket length is 55mm and must use 1 bracket/2.5 Feet.\nAero-dynamic design, stunning look-zero maintenance.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST7-main.png",
@@ -333,6 +361,7 @@
         {
           "id": "CR-ST08",
           "name": "CRST-08",
+          "description": "Model Name : RW–41\nTOP MOUNTING FLAT BALUSTER FOR BALCONY & STAIRCASE\nThe Product Named as H & B System Which Gives Stunning Look of Premises for Balcony & Staircase.\nIt Provides Aesthetic Look of Premises.\nAvailable In Different Finishes Like Gold, Rose Gold, Black & S.S. Matt.",
           "type": "ss-steel-glass",
           "images": [
             "/images/main-products/CRST08-main.jpg",
@@ -341,34 +370,41 @@
         }
       ]
     },
-
     {
       "id": "ss-pvd-coating",
       "name": "SS Steel PVD Powder Coating",
-      "description": "CR-PVD decorative PVD coating products.",
+      "description": "Modern and contemporary shades, from black PVD to gold, from copper to bronze, scratched, matt, glossy.",
       "image": "/images/main-products/CR-PVD03-main.webp",
       "products": [
         {
           "id": "CR-PVD01",
           "name": "CR-PVD-01",
+          "description": "Stainless Steel L Profile is a versatile and durable structural element designed for various applications in construction, manufacturing, and design. Known for its excellent corrosion resistance and strength, the L profile provides both aesthetic appeal and structural integrity. It is ideal for use in frames, supports, and edging, offering a modern, clean look with the durability of stainless steel.",
           "type": "pvd",
-          "images": ["/images/main-products/CR-PVD-01-main.jpeg"]
+          "images": [
+            "/images/main-products/CR-PVD-01-main.jpeg"
+          ]
         },
         {
           "id": "CR-PVD02",
           "name": "CR-PVD-02",
+          "description": "Modern and contemporary shades, from black PVD to gold, from copper to bronze, scratched, matt, glossy. The aesthetic properties of the PVD treatment are also indicated for precious elements such as jewelry, fashion accessory watches and furnishing to bring out the elegance and refinement of the treated product.",
           "type": "pvd",
-          "images": ["/images/main-products/CR-PVD-02-main.jpg"]
+          "images": [
+            "/images/main-products/CR-PVD-02-main.jpg"
+          ]
         },
         {
           "id": "CR-PVD03",
           "name": "CR-PVD-03",
+          "description": "It is used in hotels, restaurants, luxury interior & exterior decor, elevator door/cabinet, kitchen equipment, escalator, columns, pillars, cladding, facade, flooring, roof, ceiling, wall, hotel lobby etc. This range is ideally suited for exterior cladding, interior decoration and fabrication of furniture and fixtures.",
           "type": "pvd",
-          "images": ["/images/main-products/CR-PVD03-main.webp"]
+          "images": [
+            "/images/main-products/CR-PVD03-main.webp"
+          ]
         }
       ]
     },
-
     {
       "id": "upvc-window-door",
       "name": "UPVC Window Door Glass Partition",
@@ -378,41 +414,57 @@
         {
           "id": "CR-UPVC01",
           "name": "CR-UPVC-01",
+          "description": "The UPVC Office Partitions & Doors offer customizable, elegant workspace solutions with hinged doors, premium UPVC construction for durability, easy maintenance, sound insulation, thermal efficiency, and a secure multi-point locking system. Made in India with modular design, they ensure privacy, safety, aesthetic appeal, and flexible reconfiguration for modern offices and commercial spaces.",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-01-main.webp"]
+          "images": [
+            "/images/main-products/CR-UPVC-01-main.webp"
+          ]
         },
         {
           "id": "CR-UPVC02",
           "name": "CR-UPVC-02",
+          "description": "Toughened glass, the most common type for partitioning, undergoes heating to become 4-5 times stronger than annealed glass, breaking into small safe bits instead of sharp shards. Glass partitions are transparent, non-weight-bearing walls that divide open spaces affordably without construction, preserving natural light in homes, offices, education, and commercial buildings.",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-02-main.webp"]
+          "images": [
+            "/images/main-products/CR-UPVC-02-main.webp"
+          ]
         },
         {
           "id": "CR-UPVC03",
           "name": "CR-UPVC-03",
+          "description": "White UPVC window unit featuring a combination of hinged and fixed glass panes. The assembly includes a top-hinged window over a fixed panel on the left, and a larger side-hinged window with a handle on the right, all set within a single frame with a sill.",
           "type": "upvc",
           "images": [
             "/images/main-products/CR-UPVC-03-main.jpg",
             "/images/main-products/CR-UPVC-03-main.webp"
           ]
         },
-                {
+        {
           "id": "CR-UPVC04",
           "name": "CR-UPVC-04",
+          "description": "White UPVC fixed window featuring a classic rectangular design with eight glass panes divided by internal colonial grids. Crafted for both home and office use, it provides a cost-effective way to enhance natural light and views while offering thermal efficiency, noise reduction, and a low-maintenance, durable finish.",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-04--main.jpg"]
+          "images": [
+            "/images/main-products/CR-UPVC-04--main.jpg"
+          ]
         },
-      {
-  "id": "CR-UPVC05",
-  "name": "CR-UPVC-05",
-  "type": "upvc",
-  "images": ["/images/main-products/CR-UPVC-05--main.jpg"]
-},
-   {
+        {
+          "id": "CR-UPVC05",
+          "name": "CR-UPVC-05",
+          "description": "Premium UPVC window system offering excellent thermal insulation, weather resistance, and low maintenance for modern homes and offices.",
+          "type": "upvc",
+          "images": [
+            "/images/main-products/CR-UPVC-05--main.jpg"
+          ]
+        },
+        {
           "id": "CR-UPVC06",
           "name": "CR-UPVC-06",
+          "description": "White powder-coated aluminum casement window features a durable, rust-resistant frame designed for excellent ventilation and energy efficiency. Its multi-point locking system and triple EPDM sealing strips provide superior security, sound insulation, and thermal performance.",
           "type": "upvc",
-          "images": ["/images/main-products/CR-UPVC-06-main.jpg"]
+          "images": [
+            "/images/main-products/CR-UPVC-06-main.jpg"
+          ]
         }
       ]
     }
