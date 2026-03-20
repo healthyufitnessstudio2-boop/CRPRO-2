@@ -84,10 +84,11 @@ const Header = () => {
                 alt="CR PRO RAILING" 
                 className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
               />
-              <div className="hidden sm:flex flex-col">
-                <span className="text-white font-bold text-sm md:text-lg leading-tight">CR PRO</span>
-                <span className="text-amber-500 font-semibold text-xs md:text-sm">RAILING</span>
-              </div>
+            <div className="hidden sm:block overflow-hidden">
+  <span className="text-white font-bold text-sm md:text-xl whitespace-nowrap animate-scroll inline-block">
+    CR PRO RAILING
+  </span>
+</div>
             </Link>
 
             {/* Desktop Navigation */}
