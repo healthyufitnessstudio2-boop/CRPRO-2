@@ -58,7 +58,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="w-full overflow-hidden">
       {/* Hero Slider */}
       <section className="relative h-[400px] md:h-[600px] overflow-hidden bg-slate-900">
         {sliderData.length > 0 && sliderData.map((slide, index) => (
@@ -77,7 +77,7 @@ const HomePage = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-transparent" />
             
-            <div className="relative h-full container mx-auto px-4 flex items-end pb-20">
+            <div className="relative h-full max-w-7xl mx-auto px-4 w-full flex items-end pb-20">
               <div className="max-w-2xl text-white animate-fade-in-up">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                   {slide.title}
@@ -156,7 +156,7 @@ const HomePage = () => {
 
       {/* Features Section */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+        max-w-7xl mx-auto px-4 w-full
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
               { icon: Shield, title: 'Safety First', desc: 'ISI certified products with maximum safety standards' },
@@ -181,7 +181,7 @@ const HomePage = () => {
 
       {/* Categories Section */}
       <section className="py-16 bg-gradient-to-br from-slate-50 to-slate-100">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 w-full">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
               Our <span className="gradient-text">Categories</span>
@@ -234,7 +234,7 @@ const HomePage = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
-        <div className="container mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 w-full text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Space?
           </h2>
