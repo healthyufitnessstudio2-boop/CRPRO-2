@@ -10,6 +10,7 @@ const ProductsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [data, setData] = useState(null);
+  const [activeTab, setActiveTab] = useState('features');
 
  useEffect(() => {
   fetch('/data/products.json')
@@ -196,52 +197,71 @@ const ProductsPage = () => {
                    
 
                 {/* Product Details */}
-                <div>
-                  <div className="mb-6">
-                    <h3 className="text-lg font-semibold text-slate-800 mb-3">Description</h3>
-                    <p className="text-slate-600 leading-relaxed">
-  Premium quality {selectedProduct.name} from CR PRO RAILING.
-</p>
-                  </div>
+               <div>
+  {/* Description */}
+  <div className="mb-6">
+    <h3 className="text-lg font-semibold text-slate-800 mb-3">Description</h3>
+    <p className="text-slate-600 leading-relaxed">
+      Premium quality {selectedProduct.name} from CR PRO RAILING.
+    </p>
+  </div>
 
-                  <div className="mb-6">
-                    <h3 className="text-lg font-semibold text-slate-800 mb-3">Features</h3>
-{data?.commonData?.features?.length ? (
-  <ul className="space-y-2">
-    {data.commonData.features.map((item, i) => (
-      <li key={i} className="flex items-center text-slate-600">
-        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-        {item}
-      </li>
-    ))}
-  </ul>
-) : (
-  <p className="text-slate-500">Loading...</p>
-)}
-                  </div>
-                  <div className="mb-6">
-  <h3 className="text-lg font-semibold text-slate-800 mb-3">Product Information</h3>
+  {/* Tabs */}
+  <div className="flex gap-4 border-b text-xs sm:text-sm font-medium mb-4 overflow-x-auto">
+    <button onClick={() => setActiveTab('features')} className={`pb-2 ${activeTab === 'features' ? 'border-b-2 border-green-500 text-green-600' : 'text-slate-500'}`}>
+      Features
+    </button>
 
-  <p className="text-slate-600"><b>Model:</b> {selectedProduct?.specifications?.model || 'N/A'}</p>
-<p className="text-slate-600"><b>Weight:</b> {selectedProduct?.specifications?.weight || 'N/A'}</p>
-<p className="text-slate-600"><b>Length:</b> {selectedProduct?.specifications?.length || 'N/A'}</p>
-<p className="text-slate-600"><b>Profile:</b> {selectedProduct?.specifications?.profile || 'N/A'}</p>
-</div>
-                  <div className="mb-6">
-  <h3 className="text-lg font-semibold text-slate-800 mb-3">Glass</h3>
-{data?.commonData?.glass?.length ? (
-  <ul className="space-y-2">
-    {data.commonData.glass.map((item, i) => (
-      <li key={i} className="flex items-center text-slate-600">
-        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-        {item}
-      </li>
-    ))}
-  </ul>
-) : (
-  <p className="text-slate-500">Loading...</p>
+    <button onClick={() => setActiveTab('spec')} className={`pb-2 ${activeTab === 'spec' ? 'border-b-2 border-green-500 text-green-600' : 'text-slate-500'}`}>
+      Specification
+    </button>
+
+    <button onClick={() => setActiveTab('glass')} className={`pb-2 ${activeTab === 'glass' ? 'border-b-2 border-green-500 text-green-600' : 'text-slate-500'}`}>
+      Glass
+    </button>
+
+    <button onClick={() => setActiveTab('finishes')} className={`pb-2 ${activeTab === 'finishes' ? 'border-b-2 border-green-500 text-green-600' : 'text-slate-500'}`}>
+      Finishes
+    </button>
+  </div>
+              
+                {activeTab === 'features' && (
+  <div className="mb-6">
+    <ul className="space-y-2">
+      {data?.commonData?.features?.map((item, i) => (
+        <li key={i} className="flex items-center text-slate-600 text-sm">
+          <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
+          {item}
+        </li>
+      ))}
+    </ul>
+  </div>
 )}
-</div>
+                {activeTab === 'spec' && (
+  <div className="mb-6 text-sm text-slate-600 space-y-1">
+    <p><b>Model:</b> {selectedProduct?.specifications?.model || 'N/A'}</p>
+    <p><b>Weight:</b> {selectedProduct?.specifications?.weight || 'N/A'}</p>
+    <p><b>Length:</b> {selectedProduct?.specifications?.length || 'N/A'}</p>
+    <p><b>Profile:</b> {selectedProduct?.specifications?.profile || 'N/A'}</p>
+  </div>
+)}
+                {activeTab === 'glass' && (
+  <div className="mb-6">
+    <ul className="space-y-2">
+      {data?.commonData?.glass?.map((item, i) => (
+        <li key={i} className="flex items-center text-slate-600 text-sm">
+          <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
+          {item}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+                {activeTab === 'finishes' && (
+  <div className="mb-6 text-sm text-slate-600">
+    <p>Available in multiple premium finishes.</p>
+  </div>
+)}
 
                   <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-slate-200">
                     <a
