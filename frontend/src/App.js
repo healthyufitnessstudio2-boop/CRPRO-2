@@ -10,7 +10,7 @@ import ProductsPage from './pages/ProductsPage';
 import GalleryPage from './pages/GalleryPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-
+import ScrollToTop from "./ScrollToTop";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -39,8 +39,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App min-h-screen bg-slate-50">
-        <Header />
+  <ScrollToTop />   {/* ✅ YAHAN ADD KARNA HAI */}
+  <div className="App min-h-screen bg-slate-50">
+    <Header />
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
