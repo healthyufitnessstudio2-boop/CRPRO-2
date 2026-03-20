@@ -20,8 +20,8 @@ const CategoriesPage = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20 w-full">
+  <div className="w-full px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up">
             Our <span className="gradient-text">Categories</span>
           </h1>
