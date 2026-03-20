@@ -199,11 +199,7 @@ const ProductsPage = () => {
                         <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
                         Low Maintenance
                       </li>
-                      <li className="flex items-center text-slate-600">
-                        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-                        10 Year Warranty
-                      </li>
-                    </ul>
+                     </ul>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-slate-200">
