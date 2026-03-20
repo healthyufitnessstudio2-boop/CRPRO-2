@@ -72,18 +72,22 @@ const Header = () => {
       {/* Main Navigation */}
       <header 
         className={`sticky top-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
+          isScrolled ? 'bg-black shadow-lg' : 'bg-black/95 backdrop-blur-sm'
         }`}
       >
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            {/* Logo */}
+            {/* Logo + Text */}
             <Link to="/" className="flex items-center space-x-3 group">
               <img 
                 src="/logo.png"
                 alt="CR PRO RAILING" 
-                className="h-12 md:h-16 w-auto transition-transform group-hover:scale-105"
+                className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
               />
+              <div className="hidden sm:flex flex-col">
+                <span className="text-white font-bold text-sm md:text-lg leading-tight">CR PRO</span>
+                <span className="text-amber-500 font-semibold text-xs md:text-sm">RAILING</span>
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
@@ -95,7 +99,7 @@ const Header = () => {
                   className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
                     location.pathname === link.path
                       ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white'
-                      : 'text-slate-700 hover:bg-slate-100 hover:text-amber-600'
+                      : 'text-white hover:bg-slate-800 hover:text-amber-400'
                   }`}
                 >
                   {link.name}
@@ -106,12 +110,12 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors"
+              className="lg:hidden p-2 rounded-lg hover:bg-slate-800 transition-colors"
             >
               {isMenuOpen ? (
-                <X className="w-6 h-6 text-slate-700" />
+                <X className="w-6 h-6 text-white" />
               ) : (
-                <Menu className="w-6 h-6 text-slate-700" />
+                <Menu className="w-6 h-6 text-white" />
               )}
             </button>
           </div>
@@ -127,18 +131,18 @@ const Header = () => {
                     className={`px-4 py-3 rounded-lg font-medium transition-all ${
                       location.pathname === link.path
                         ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white'
-                        : 'text-slate-700 hover:bg-slate-100'
+                        : 'text-white hover:bg-slate-800 hover:text-amber-400'
                     }`}
                   >
                     {link.name}
                   </Link>
                 ))}
-                <div className="pt-4 border-t border-slate-200">
-                  <a href="tel:9000916120" className="flex items-center px-4 py-2 text-slate-700 hover:text-amber-600">
+                <div className="pt-4 border-t border-slate-700">
+                  <a href="tel:9000916120" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
                     <Phone className="w-4 h-4 mr-2" />
-                    9000916120 / 9581901555
+                    9000916120
                   </a>
-                  <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-slate-700 hover:text-amber-600">
+                  <a href="mailto:crprorailing@gmail.com" className="flex items-center px-4 py-2 text-white hover:text-amber-400">
                     <Mail className="w-4 h-4 mr-2" />
                     crprorailing@gmail.com
                   </a>
