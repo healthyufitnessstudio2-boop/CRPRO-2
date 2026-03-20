@@ -9,11 +9,13 @@ const ProductsPage = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [data, setData] = useState(null);
 
  useEffect(() => {
   fetch('/data/products.json')
     .then(res => res.json())
     .then(data => {
+      setData(data);
       const allCats = data.categories;
       setAllCategories(allCats);
 
@@ -198,31 +200,48 @@ const ProductsPage = () => {
                   <div className="mb-6">
                     <h3 className="text-lg font-semibold text-slate-800 mb-3">Description</h3>
                     <p className="text-slate-600 leading-relaxed">
-  {selectedCategory?.description || 'Premium quality product from CR PRO RAILING.'}
+  Premium quality {selectedProduct.name} from CR PRO RAILING.
 </p>
                   </div>
 
                   <div className="mb-6">
                     <h3 className="text-lg font-semibold text-slate-800 mb-3">Features</h3>
-                    <ul className="space-y-2">
-                      <li className="flex items-center text-slate-600">
-                        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-                        Premium Quality Material
-                      </li>
-                      <li className="flex items-center text-slate-600">
-                        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-                        Weather Resistant
-                      </li>
-                      <li className="flex items-center text-slate-600">
-                        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-                        Easy Installation
-                      </li>
-                      <li className="flex items-center text-slate-600">
-                        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
-                        Low Maintenance
-                      </li>
-                     </ul>
+{data?.commonData?.features?.length ? (
+  <ul className="space-y-2">
+    {data.commonData.features.map((item, i) => (
+      <li key={i} className="flex items-center text-slate-600">
+        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
+        {item}
+      </li>
+    ))}
+  </ul>
+) : (
+  <p className="text-slate-500">Loading...</p>
+)}
                   </div>
+                  <div className="mb-6">
+  <h3 className="text-lg font-semibold text-slate-800 mb-3">Product Information</h3>
+
+  <p className="text-slate-600"><b>Model:</b> {selectedProduct?.specifications?.model || 'N/A'}</p>
+<p className="text-slate-600"><b>Weight:</b> {selectedProduct?.specifications?.weight || 'N/A'}</p>
+<p className="text-slate-600"><b>Length:</b> {selectedProduct?.specifications?.length || 'N/A'}</p>
+<p className="text-slate-600"><b>Profile:</b> {selectedProduct?.specifications?.profile || 'N/A'}</p>
+</div>
+                  <div className="mb-6">
+  <h3 className="text-lg font-semibold text-slate-800 mb-3">Glass</h3>
+{data?.commonData?.glass?.length ? (
+  <ul className="space-y-2">
+    {data.commonData.glass.map((item, i) => (
+      <li key={i} className="flex items-center text-slate-600">
+        <span className="w-2 h-2 bg-amber-500 rounded-full mr-3"></span>
+        {item}
+      </li>
+    ))}
+  </ul>
+) : (
+  <p className="text-slate-500">Loading...</p>
+)}
+</div>
 
                   <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-slate-200">
                     <a
