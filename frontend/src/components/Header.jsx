@@ -38,15 +38,19 @@ const Header = () => {
     {/* LEFT SIDE */}
     <div className="flex items-center gap-3 font-semibold">
 
-      <a href="tel:9000916120" className="flex items-center gap-1 hover:text-amber-400">
-        <Phone className="w-4 h-4" />
-        9000916120
-      </a>
+      <a href="https://wa.me/919000916120" target="_blank">
+  <img 
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    className="w-5 h-5"
+  />
+</a>
 
       <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
-        <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M20.52 3.48A11.92 11.92 0 0012.06 0C5.4 0 .04 5.36.04 12.02c0 2.12.55 4.2 1.6 6.04L0 24l6.11-1.6a11.96 11.96 0 005.95 1.52h.01c6.66 0 12.02-5.36 12.02-12.02z"/>
-        </svg>
+       <img 
+  src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+  alt="WhatsApp"
+  className="w-5 h-5"
+/>
       </a>
 
     </div>
@@ -65,9 +69,11 @@ const Header = () => {
       </a>
 
       <a href="https://www.instagram.com/cr_pro_railing" target="_blank" rel="noopener noreferrer">
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2.163c3.204 0 3.584.012 4.85.07..." />
-        </svg>
+       <img 
+  src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+  alt="Instagram"
+  className="w-5 h-5"
+/>
       </a>
 
     </div>
@@ -145,11 +151,14 @@ const Header = () => {
                 <div className="pt-4 border-t border-slate-700">
                  <div className="flex items-center gap-3 px-4 py-2 text-white">
 
-  <a href="tel:9000916120" className="flex items-center gap-2">
+  <div className="flex items-center gap-3 font-semibold">
+
+  <a href="tel:9000916120" className="flex items-center gap-1 hover:text-amber-400">
     <Phone className="w-4 h-4" />
-    <span>9000916120</span>
+    9000916120
   </a>
 
+  </div>
   <a href="https://wa.me/919000916120" target="_blank" rel="noopener noreferrer">
     <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
       <path d="M20.52 3.48A11.92 11.92 0 0012.06 0C5.4 0 .04 5.36.04 12.02c0 2.12.55 4.2 1.6 6.04L0 24l6.11-1.6a11.96 11.96 0 005.95 1.52h.01c6.66 0 12.02-5.36 12.02-12.02 0-3.21-1.25-6.23-3.57-8.52zM12.07 21.7h-.01a9.9 9.9 0 01-5.05-1.38l-.36-.21-3.63.95.97-3.54-.23-.37a9.86 9.86 0 01-1.52-5.26c0-5.46 4.44-9.9 9.91-9.9 2.64 0 5.13 1.03 7 2.9a9.83 9.83 0 012.9 7c0 5.47-4.44 9.91-9.9 9.91z"/>
